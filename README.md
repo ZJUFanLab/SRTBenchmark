@@ -19,7 +19,7 @@ We conducted a comprehensive benchmark of **14 spatial clustering methods** acro
 | MERFISH         | Brain          | Yes        | BASS, stLearn, SpaGCN, PRECAST, Banksy       |
 
 ## Optimal Preprocessing Pipelines
-We tested our optimized preprocessing pipeline on the **DLPFC** dataset to improve clustering accuracy.  
+We tested our optimized preprocessing pipeline on the **10x Visium DLPFC** dataset to improve clustering accuracy.  
 To facilitate use of this optimized pipeline, we also provide versions of the methods using the optimized pipelines in the **Methods** folder.
 
 | Method        | Normalization | Log Transformation | Genes Selection | Standardization | Dimension Reduction |
