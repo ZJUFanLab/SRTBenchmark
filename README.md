@@ -1,5 +1,9 @@
 # SRTBenchmark
 **Benchmarking spatial clustering methods for spatially resolved transcriptomics**
+
+## Datasets and Methods
+Please refer to **Table1** for dataset details and the **Methods** folder for example code of each clustering method.
+
 ## Overall Performance
 We conducted a comprehensive benchmark of **14 spatial clustering methods** across multiple **technologies, organs, and biological replicates**, and provided **method recommendations** tailored to different application scenarios.
 
@@ -13,3 +17,5 @@ We conducted a comprehensive benchmark of **14 spatial clustering methods** acro
 | 10x Visium      | Low continuity | No         | PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace|
 | 10x Visium      | Brain          | Yes        | DeepST, Banksy, SEDR, GraphST, STAGATE       |
 | MERFISH         | Brain          | Yes        | BASS, stLearn, SpaGCN, PRECAST, Banksy       |
+
+## Optimal Preprocessing Pipelines
