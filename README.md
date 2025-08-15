@@ -7,7 +7,7 @@ Please refer to **Table1** for dataset details and the **Methods** folder for ex
 ## Overall Performance
 We conducted a comprehensive benchmark of **14 spatial clustering methods** across multiple **technologies, organs, and biological replicates**, and provided **method recommendations** tailored to different application scenarios.
 
-<img src="./figures/Overall_accuracy" width="300">
+<img src="./figures/Overall_accuracy.png" width="300">
 
 | Technology      | Organ          | Replicates | Recommendation (top 5)                         |
 |-----------------|----------------|------------|------------------------------------------------|
