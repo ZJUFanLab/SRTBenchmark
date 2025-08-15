@@ -3,7 +3,7 @@
 ## Overall Performance
 We conducted a comprehensive benchmark of **14 spatial clustering methods** across multiple **technologies, organs, and biological replicates**, and provided **method recommendations** tailored to different application scenarios.
 
-<img src="figures/Overall_accuracy" width="300">
+<img src="../figures/Overall_accuracy" width="300">
 
 | Technology      | Organ          | Replicates | Recommendation (top 5)                         |
 |-----------------|----------------|------------|------------------------------------------------|
