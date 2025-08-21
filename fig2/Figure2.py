@@ -99,7 +99,7 @@ for row in range(2):
    
         result_obs = pd.read_csv(f"{result_dir}/{sample}_{method}_obs.csv", index_col = 0)
         adata = raw_adata.copy()
-        adata.obs = adata.obs.join(result_obs[[key_dic[method]]], how='left')
+        adata.obs = adata.obs.join(result_obs[['predict_cluster']], how='left')
         adata = adata[~pd.isnull(adata.obs['predict_cluster'])]
         adata.obs['predict_cluster'] = adata.obs['predict_cluster'].astype('category') 
         ax = axes[row, col]
@@ -182,7 +182,7 @@ for row in range(2):
         result_obs = pd.read_csv(f"{result_dir}/{sample}_{method}_obs.csv", index_col = 0)
         result_obs.index = result_obs.index.astype(str)
         adata = raw_adata.copy()
-        adata.obs = adata.obs.join(result_obs[[key_dic[method]]], how='left')
+        adata.obs = adata.obs.join(result_obs[['predict_cluster']], how='left')
         adata = adata[~pd.isnull(adata.obs['predict_cluster'])]
         adata.obs['predict_cluster'] = adata.obs['predict_cluster'].astype('category') 
         ax = axes[row, col]
