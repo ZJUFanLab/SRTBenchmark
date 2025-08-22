@@ -1,0 +1,384 @@
+,Technology,Tissue,Dataset,Sample,Number of Spots,Number of Genes,Genes Detected per Spot,Sparsity,Avg Expression per Spot,Avg Non Zero Expression per Spot,Number of Clusters,Annotation_Level,Original_Annotation,Level
+0,10x Visium,Brain,DLPFC,151507,4221,33538,1409.482,0.958,0.077,1.782,7,domain,Manual Annotation,Level 1
+1,10x Visium,Brain,DLPFC,151508,4381,33538,1191.235,0.964,0.063,1.723,7,domain,Manual Annotation,Level 1
+2,10x Visium,Brain,DLPFC,151509,4788,33538,1434.161,0.957,0.076,1.718,7,domain,Manual Annotation,Level 1
+3,10x Visium,Brain,DLPFC,151510,4595,33538,1368.559,0.959,0.073,1.735,7,domain,Manual Annotation,Level 1
+4,10x Visium,Brain,DLPFC,151669,3636,33538,1796.764,0.946,0.112,2.009,5,domain,Manual Annotation,Level 1
+5,10x Visium,Brain,DLPFC,151670,3484,33538,1675.843,0.95,0.102,1.965,5,domain,Manual Annotation,Level 1
+6,10x Visium,Brain,DLPFC,151671,4093,33538,1859.503,0.945,0.116,1.998,5,domain,Manual Annotation,Level 1
+7,10x Visium,Brain,DLPFC,151672,3888,33538,1770.257,0.947,0.109,1.975,5,domain,Manual Annotation,Level 1
+8,10x Visium,Brain,DLPFC,151673,3611,33538,2207.998,0.934,0.137,1.983,7,domain,Manual Annotation,Level 1
+9,10x Visium,Brain,DLPFC,151674,3635,33538,2697.521,0.92,0.176,2.094,7,domain,Manual Annotation,Level 1
+10,10x Visium,Brain,DLPFC,151675,3566,33538,1807.521,0.946,0.107,1.895,7,domain,Manual Annotation,Level 1
+11,10x Visium,Brain,DLPFC,151676,3431,33538,1936.961,0.942,0.115,1.922,7,domain,Manual Annotation,Level 1
+12,10x Visium,Brain,Mouse Brain,FF3_S1_Sagittal_Posterior,3353,31053,4541.987,0.854,0.549,3.438,17,domain,Unsupervised clustering,Level 3
+13,10x Visium,Brain,Mouse Brain,FF4_S2_Sagittal_Anterior,2825,31053,5015.129,0.838,0.637,3.77,18,domain,Unsupervised clustering,Level 3
+14,10x Visium,Brain,Mouse Brain,FF5_S2_Sagittal_Posterior,3293,31053,4385.757,0.859,0.506,3.311,18,domain,Unsupervised clustering,Level 3
+15,10x Visium,Brain,Mouse Brain,FF6,2560,31053,4722.021,0.848,0.637,3.933,17,domain,Unsupervised clustering,Level 3
+16,10x Visium,Brain,Mouse Brain,FF7,2500,31053,4389.446,0.859,0.584,3.933,17,domain,Unsupervised clustering,Level 3
+17,10x Visium,Brain,Human Cerebellum,Whole_Transcriptome,4992,36601,2855.558,0.922,0.177,2.069,8,domain,Unsupervised clustering,Level 3
+18,10x Visium,Brain,Mouse Brain,Section_Coronal,2686,32285,5953.154,0.816,0.988,5.085,15,domain,Manual Annotation,Level 1
+19,10x Visium,Brain,Mouse Brain,S1_Sagittal_Anterior_Level,2693,32285,5883.059,0.818,0.796,4.141,9,domain,Manual Annotation,Level 1
+20,10x Visium,Breast,Human Breast Cancer,Block_A_Section1,3798,36601,5621.993,0.846,0.596,3.463,20,domain,Manual Annotation,Level 1
+21,10x Visium,Breast,Human Breast Cancer,Block_A_Section2,3987,36601,5458.042,0.851,0.571,3.463,10,domain,Unsupervised clustering,Level 3
+22,10x Visium,Breast,Human Breast Cancer,Whole_Transcriptome,4898,36601,3522.717,0.904,0.28,2.678,9,domain,Unsupervised clustering,Level 3
+23,10x Visium,Breast,Human Breast,sample01,2103,36601,2602.554,0.929,0.237,2.548,9,domain,Unsupervised clustering + Marker genes,Level 1
+24,10x Visium,Breast,Human Breast,sample02,1400,36601,2337.706,0.936,0.268,2.638,9,domain,Unsupervised clustering + Marker genes,Level 1
+25,10x Visium,Breast,Human Breast,sample03,2364,36601,1756.434,0.952,0.106,1.932,9,domain,Unsupervised clustering + Marker genes,Level 1
+26,10x Visium,Breast,Human Breast,sample04,2504,36601,1490.822,0.959,0.088,1.705,9,domain,Unsupervised clustering + Marker genes,Level 1
+27,10x Visium,Breast,Human Breast,sample05,2224,36601,2492.613,0.932,0.266,3.025,9,domain,Unsupervised clustering + Marker genes,Level 1
+28,10x Visium,Breast,Human Breast,sample06,3037,36601,2348.268,0.936,0.198,2.404,9,domain,Unsupervised clustering + Marker genes,Level 1
+29,10x Visium,Breast,Human Breast,sample07,2086,36601,1805.425,0.951,0.161,2.387,9,domain,Unsupervised clustering + Marker genes,Level 1
+30,10x Visium,Breast,Human Breast,sample08,2801,36601,2674.042,0.927,0.285,2.944,9,domain,Unsupervised clustering + Marker genes,Level 1
+31,10x Visium,Breast,Human Breast,sample09,2694,36601,2583.376,0.929,0.261,2.566,9,domain,Unsupervised clustering + Marker genes,Level 1
+32,10x Visium,Breast,Human Breast,sample10,2473,36601,1851.064,0.949,0.178,2.319,9,domain,Unsupervised clustering + Marker genes,Level 1
+33,10x Visium,Heart,Human Heart,Human_Heart,4247,36601,1933.21,0.947,0.239,4.433,3,domain,Unsupervised clustering,Level 3
+34,10x Visium,Heart,Chicken Heart,D10,1916,24356,2146.394,0.912,0.442,4.796,7,domain,Manual Annotation,Level 1
+35,10x Visium,Heart,Chicken Heart,D14,1967,24356,2044.886,0.916,0.402,4.667,6,domain,Manual Annotation,Level 1
+36,10x Visium,Heart,Chicken Heart,D4,747,24356,2306.55,0.905,0.438,3.751,5,domain,Manual Annotation,Level 1
+37,10x Visium,Heart,Chicken Heart,D7,1966,24356,2232.636,0.908,0.488,5.013,7,domain,Manual Annotation,Level 1
+38,10x Visium,Heart,Human Cardiac Niches,LV_9383356,1166,33538,608.744,0.982,0.074,3.945,3,domain,Manual Annotation,Level 1
+39,10x Visium,Heart,Human Cardiac Niches,RA_10238251,1302,33538,1626.547,0.952,0.14,2.745,4,domain,Manual Annotation,Level 1
+40,10x Visium,Heart,Human Cardiac Niches,SAN_13233999,2881,33538,2166.739,0.935,0.215,2.943,6,domain,Manual Annotation,Level 1
+41,10x Visium,Heart,Human Cardiac Niches,SAN_13233996,3052,33538,1675.915,0.95,0.149,2.699,6,domain,Manual Annotation,Level 1
+42,10x Visium,Heart,Human Cardiac Niches,SP_8795938,1564,33538,2374.485,0.929,0.273,3.703,3,domain,Manual Annotation,Level 1
+43,10x Visium,Heart,Human Cardiac Niches,RA_9383353,1035,33538,1524.757,0.955,0.117,2.462,4,domain,Manual Annotation,Level 1
+44,10x Visium,Heart,Human Cardiac Niches,SP_8795939,2037,33538,2116.341,0.937,0.248,3.707,4,domain,Manual Annotation,Level 1
+45,10x Visium,Heart,Human Cardiac Niches,LV_8795933,2891,33538,1286.385,0.962,0.114,2.891,6,domain,Manual Annotation,Level 1
+46,10x Visium,Heart,Human Cardiac Niches,AX_10238253,2168,33538,2391.872,0.929,0.325,4.356,5,domain,Manual Annotation,Level 1
+47,10x Visium,Heart,Human Cardiac Niches,SAN_12992072,3802,33538,2500.614,0.925,0.317,3.733,7,domain,Manual Annotation,Level 1
+48,10x Visium,Heart,Human Cardiac Niches,SAN_13233997,3400,33538,1692.879,0.95,0.161,2.783,5,domain,Manual Annotation,Level 1
+49,10x Visium,Heart,Human Cardiac Niches,RV_8795940,1225,33538,1357.522,0.96,0.105,2.556,4,domain,Manual Annotation,Level 1
+50,10x Visium,Heart,Human Cardiac Niches,SAN_13233998,3448,33538,2214.86,0.934,0.219,2.852,6,domain,Manual Annotation,Level 1
+51,10x Visium,Heart,Human Cardiac Niches,AVN_11290658,2697,33538,822.304,0.975,0.06,2.336,5,domain,Manual Annotation,Level 1
+52,10x Visium,Heart,Human Cardiac Niches,LV_9383354,2073,33538,950.43,0.972,0.108,3.723,4,domain,Manual Annotation,Level 1
+53,10x Visium,Heart,Human Cardiac Niches,AVN_13228103,2942,33538,1806.757,0.946,0.193,2.963,6,domain,Manual Annotation,Level 1
+54,10x Visium,Heart,Human Cardiac Niches,RV_9341982,1252,33538,1953.626,0.942,0.254,4.096,4,domain,Manual Annotation,Level 1
+55,10x Visium,Heart,Human Cardiac Niches,LA_8795934,1831,33538,1424.211,0.958,0.129,2.79,4,domain,Manual Annotation,Level 1
+56,10x Visium,Heart,Human Cardiac Niches,LA_10238252,1702,33538,1965.901,0.941,0.171,2.786,6,domain,Manual Annotation,Level 1
+57,10x Visium,Heart,Human Cardiac Niches,LV_9383358,1236,33538,581.074,0.983,0.07,3.91,3,domain,Manual Annotation,Level 1
+58,10x Visium,Heart,Human Cardiac Niches,LA_8795935,1040,33538,1764.613,0.947,0.192,3.357,5,domain,Manual Annotation,Level 1
+59,10x Visium,Heart,Human Cardiac Niches,AX_9341984,2152,33538,1097.377,0.967,0.116,3.413,2,domain,Manual Annotation,Level 1
+60,10x Visium,Heart,Human Cardiac Niches,AVN_11290662,3153,33538,1118.311,0.967,0.089,2.514,6,domain,Manual Annotation,Level 1
+61,10x Visium,Heart,Human Cardiac Niches,AVN_12992075,3478,33538,1455.492,0.957,0.127,2.716,4,domain,Manual Annotation,Level 1
+62,10x Visium,Heart,Human Cardiac Niches,SAN_11702009,3982,17922,2786.7,0.845,0.368,2.109,9,domain,Manual Annotation,Level 1
+63,10x Visium,Heart,Human Cardiac Niches,RA_8795937,2955,33538,1850.896,0.945,0.171,2.974,7,domain,Manual Annotation,Level 1
+64,10x Visium,Heart,Human Cardiac Niches,SP_11350375,2843,33538,1442.43,0.957,0.146,3.28,6,domain,Manual Annotation,Level 1
+65,10x Visium,Heart,Human Cardiac Niches,LV_9383352,2260,33538,872.05,0.974,0.092,3.43,3,domain,Manual Annotation,Level 1
+66,10x Visium,Heart,Human Cardiac Niches,SAN_13228105,2852,33538,1679.271,0.95,0.145,2.5,7,domain,Manual Annotation,Level 1
+67,10x Visium,Heart,Human Cardiac Niches,AVN_12992074,4521,33538,1753.643,0.948,0.191,3.314,6,domain,Manual Annotation,Level 1
+68,10x Visium,Heart,Human Cardiac Niches,SAN_13228106,3430,33538,1851.148,0.945,0.181,2.938,8,domain,Manual Annotation,Level 1
+69,10x Visium,Heart,Human Cardiac Niches,AVN_11350377,2807,33538,1171.369,0.965,0.098,2.648,6,domain,Manual Annotation,Level 1
+70,10x Visium,Heart,Human Cardiac Niches,RA_9383355,1735,33538,1047.446,0.969,0.077,2.222,3,domain,Manual Annotation,Level 1
+71,10x Visium,Heart,Human Cardiac Niches,AX_8795936,2177,33538,1296.333,0.961,0.108,2.685,4,domain,Manual Annotation,Level 1
+72,10x Visium,Heart,Human Cardiac Niches,SAN_10659160,4243,33538,1680.076,0.95,0.13,2.573,8,domain,Manual Annotation,Level 1
+73,10x Visium,Heart,Human Cardiac Niches,SAN_11702010,3797,17922,3377.438,0.812,0.523,2.369,9,domain,Manual Annotation,Level 1
+74,10x Visium,Heart,Human Cardiac Niches,SP_10550732,2199,33538,1545.457,0.954,0.133,2.793,3,domain,Manual Annotation,Level 1
+75,10x Visium,Heart,Human Cardiac Niches,AVN_11290657,2090,33538,667.419,0.98,0.042,2.025,5,domain,Manual Annotation,Level 1
+76,10x Visium,Heart,Human Cardiac Niches,AVN_11290659,2338,33538,1083.136,0.968,0.092,2.713,5,domain,Manual Annotation,Level 1
+77,10x Visium,Heart,Human Cardiac Niches,LA_9341983,1249,33538,1688.323,0.95,0.199,3.706,4,domain,Manual Annotation,Level 1
+78,10x Visium,Heart,Human Cardiac Niches,SAN_11702008,3533,17922,3469.373,0.806,0.514,2.375,7,domain,Manual Annotation,Level 1
+79,10x Visium,Heart,Human Cardiac Niches,RV_10550730,2562,33538,1558.125,0.954,0.153,3.124,4,domain,Manual Annotation,Level 1
+80,10x Visium,Intestine,Mouse Intestine,A1S1,2604,31053,4405.177,0.858,0.437,2.788,17,domain,Unsupervised clustering + Marker genes,Level 1
+81,10x Visium,Intestine,Mouse Intestine,B1S2,3630,31053,4009.456,0.871,0.378,2.701,17,domain,Unsupervised clustering + Marker genes,Level 1
+82,10x Visium,Intestine,Mouse Intestine,C1S7,3934,31053,2595.3,0.916,0.206,2.165,12,domain,Unsupervised clustering,Level 3
+83,10x Visium,Intestine,Mouse Intestine,D1S8,3547,31053,2728.484,0.912,0.25,2.339,12,domain,Unsupervised clustering,Level 3
+84,10x Visium,Intestine,Human Intestine Cancer,FPPE,2660,17943,6769.032,0.623,1.351,3.318,8,domain,Unsupervised clustering,Level 3
+85,10x Visium,Intestine,Human Intestine,A1,2649,33538,1488.246,0.956,0.098,1.959,13,domain,Unsupervised clustering,Level 3
+86,10x Visium,Intestine,Human Intestine,A2,2316,33538,2223.4,0.934,0.183,2.406,10,domain,Unsupervised clustering,Level 3
+87,10x Visium,Intestine,Human Intestine,A3,1080,33538,2483.282,0.926,0.152,1.939,7,domain,Unsupervised clustering,Level 3
+88,10x Visium,Intestine,Human Intestine,A4,1242,33538,2777.782,0.917,0.204,2.204,9,domain,Unsupervised clustering,Level 3
+89,10x Visium,Intestine,Human Intestine,A6,346,33538,4800.685,0.857,0.393,2.515,5,domain,Unsupervised clustering,Level 3
+90,10x Visium,Intestine,Human Intestine,A7,344,33538,3981.305,0.881,0.279,2.169,5,domain,Unsupervised clustering,Level 3
+91,10x Visium,Intestine,Human Intestine,A8,709,33538,3449.788,0.897,0.22,2.004,6,domain,Unsupervised clustering,Level 3
+92,10x Visium,Intestine,Human Intestine,A9,644,33538,3795.815,0.887,0.255,2.122,5,domain,Unsupervised clustering,Level 3
+93,10x Visium,Intestine,Human Small Intestine,V10F24-048_A1,3191,33538,737.779,0.978,0.039,1.509,5,domain,Manual Annotation,Level 1
+94,10x Visium,Intestine,Human Small Intestine,V10F24-048_B1,3402,33538,636.969,0.981,0.032,1.427,5,domain,Manual Annotation,Level 1
+95,10x Visium,Intestine,Human Small Intestine,V10F24-048_C1,3428,33538,527.798,0.984,0.025,1.406,5,domain,Manual Annotation,Level 1
+96,10x Visium,Intestine,Human Small Intestine,V10F24-048_D1,3180,33538,429.168,0.987,0.02,1.381,5,domain,Manual Annotation,Level 1
+97,10x Visium,Intestine,Human Small Intestine,V10F24-050_A1,3240,33538,802.232,0.976,0.041,1.486,5,domain,Manual Annotation,Level 1
+98,10x Visium,Intestine,Human Small Intestine,V10F24-050_B1,3331,33538,410.557,0.988,0.019,1.32,5,domain,Manual Annotation,Level 1
+99,10x Visium,Intestine,Human Small Intestine,V10F24-050_C1,3282,33538,368.402,0.989,0.017,1.292,5,domain,Manual Annotation,Level 1
+100,10x Visium,Intestine,Human Small Intestine,V10F24-050_D1,3320,33538,575.837,0.983,0.028,1.401,5,domain,Manual Annotation,Level 1
+101,10x Visium,Intestine,Human Small Intestine,V10S29-108_A1,2288,17943,990.077,0.945,0.078,1.37,5,domain,Manual Annotation,Level 1
+102,10x Visium,Intestine,Human Small Intestine,V11B18-363_D1,2912,17943,787.515,0.956,0.081,1.745,5,domain,Manual Annotation,Level 1
+103,10x Visium,Intestine,Human Small Intestine,V19T26-028_A1,3087,33538,1771.994,0.947,0.191,2.473,5,domain,Manual Annotation,Level 1
+104,10x Visium,Intestine,Human Small Intestine,V19T26-028_B1,3201,33538,1930.587,0.942,0.205,2.605,5,domain,Manual Annotation,Level 1
+105,10x Visium,Intestine,Human Small Intestine,V19T26-028_C1,3161,33538,1835.443,0.945,0.17,2.484,5,domain,Manual Annotation,Level 1
+106,10x Visium,Intestine,Human Small Intestine,V19T26-028_D1,3258,33538,1642.128,0.951,0.135,2.312,5,domain,Manual Annotation,Level 1
+107,10x Visium,Intestine,Human Colon,V10S29-108_B1,3360,17943,747.237,0.958,0.068,1.484,3,domain,Manual Annotation,Level 1
+108,10x Visium,Intestine,Human Colon,V11A20-396_A1,1432,36601,496.057,0.986,0.025,1.382,3,domain,Manual Annotation,Level 1
+109,10x Visium,Intestine,Human Colon,V11A20-396_C1,3301,36601,429.833,0.988,0.022,1.409,3,domain,Manual Annotation,Level 1
+110,10x Visium,Intestine,Human Colon,V11B18-363_C1,3742,17943,319.558,0.982,0.031,1.71,3,domain,Manual Annotation,Level 1
+111,10x Visium,Intestine,Human Colon,V11M22-349_A1,1071,17943,1457.844,0.919,0.159,1.727,2,domain,Manual Annotation,Level 1
+112,10x Visium,Intestine,Human Colon,V11M22-349_B1,1154,17943,1657.596,0.908,0.179,1.795,3,domain,Manual Annotation,Level 1
+113,10x Visium,Kidney,Adult Mouse Kidney,FFPE,3124,19465,6928.696,0.644,1.619,4.429,10,domain,Unsupervised clustering,Level 3
+114,10x Visium,Kidney,Human Kidney,FFPE,5936,18085,5874.614,0.675,0.792,2.265,11,domain,Unsupervised clustering,Level 3
+115,10x Visium,Kidney,Human Kidney Organoid,V19D02-085_B1,413,33538,1502.826,0.955,0.084,1.757,6,domain,Unsupervised clustering,Level 3
+116,10x Visium,Kidney,Human Kidney Organoid,V19D02-085_C1,475,33538,1472.695,0.956,0.081,1.699,6,domain,Unsupervised clustering,Level 3
+117,10x Visium,Kidney,Human Kidney Organoid,V19D02-085_D1,469,33538,1660.281,0.95,0.094,1.771,7,domain,Unsupervised clustering,Level 3
+118,10x Visium,Kidney,Mouse Kidney,Section_Coronal,1438,32285,6280.07,0.805,1.277,6.095,6,domain,Unsupervised clustering,Level 3
+119,10x Visium,Liver,Mouse Liver,GSM5764414,1293,31053,4449.462,0.857,0.967,6.628,4,domain,Manual Annotation,Level 1
+120,10x Visium,Liver,Mouse Liver,GSM5764415,1363,31053,4334.911,0.86,0.867,6.102,4,domain,Manual Annotation,Level 1
+121,10x Visium,Liver,Mouse Liver,GSM5764416,1316,31053,4105.908,0.868,0.895,6.678,4,domain,Manual Annotation,Level 1
+122,10x Visium,Liver,Mouse Liver,GSM5764417,1790,31053,4458.669,0.856,1.046,7.153,4,domain,Manual Annotation,Level 1
+123,10x Visium,Liver,Mouse Liver,GSM5764419,1121,31053,5033.801,0.838,1.247,7.473,4,domain,Manual Annotation,Level 1
+124,10x Visium,Liver,Mouse Liver,GSM5764420,2002,31053,4814.727,0.845,0.817,5.167,4,domain,Manual Annotation,Level 1
+125,10x Visium,Liver,Mouse Liver,GSM5764421,1780,31053,4529.554,0.854,0.789,5.195,4,domain,Manual Annotation,Level 1
+126,10x Visium,Liver,Mouse Liver,GSM5764422,1768,31053,4894.094,0.842,0.836,5.215,4,domain,Manual Annotation,Level 1
+127,10x Visium,Liver,Human Liver,GSM5764424,626,32738,3183.086,0.903,0.446,4.239,4,domain,Manual Annotation,Level 1
+128,10x Visium,Liver,Human Liver,GSM5764425,371,32738,3146.93,0.904,0.373,3.663,4,domain,Manual Annotation,Level 1
+129,10x Visium,Liver,Human Liver,GSM5764426,1759,32738,3360.804,0.897,0.49,4.627,4,domain,Manual Annotation,Level 1
+130,10x Visium,Liver,Human Liver,GSM5764427,658,32738,3785.135,0.884,0.564,4.629,4,domain,Manual Annotation,Level 1
+131,10x Visium,Liver,Human Liver,GSM5764428,919,32738,2800.369,0.914,0.346,3.77,4,domain,Manual Annotation,Level 1
+132,10x Visium,Lung,Human Lung Organoid,V19D02-088_A1,416,33538,1702.483,0.949,0.106,2.037,6,domain,Unsupervised clustering,Level 3
+133,10x Visium,Lung,Human Lung Organoid,V19D02-088_B1,444,33538,1845.36,0.945,0.118,2.09,6,domain,Unsupervised clustering,Level 3
+134,10x Visium,Lung,Human Lung Organoid,V19D02-088_C1,439,33538,1850.579,0.945,0.116,2.011,5,domain,Unsupervised clustering,Level 3
+135,10x Visium,Lung,Human Lung Organoid,V19D02-088_D1,533,33538,1988.946,0.941,0.127,2.06,6,domain,Unsupervised clustering,Level 3
+136,10x Visium,Lung,Human Lung,6332STDY10289520,1948,33538,4602.191,0.863,0.489,3.314,10,domain,Manual Annotation,Level 1
+137,10x Visium,Lung,Human Lung,6332STDY10289521,2479,33538,4598.916,0.863,0.425,3.034,13,domain,Manual Annotation,Level 1
+138,10x Visium,Lung,Human Lung,6332STDY10289522,3265,33538,3530.741,0.895,0.26,2.383,12,domain,Manual Annotation,Level 1
+139,10x Visium,Lung,Human Lung,6332STDY10289523,1287,33538,3708.713,0.889,0.304,2.6,13,domain,Manual Annotation,Level 1
+140,10x Visium,Lung,Human Lung,6332STDY9479166,614,33538,4705.518,0.86,0.389,2.687,10,domain,Manual Annotation,Level 1
+141,10x Visium,Lung,Human Lung,6332STDY9479167,780,33538,4250.044,0.873,0.356,2.676,12,domain,Manual Annotation,Level 1
+142,10x Visium,Lung,Human Lung,6332STDY9479168,3137,33538,2960.362,0.912,0.193,2.144,13,domain,Manual Annotation,Level 1
+143,10x Visium,Lung,Human Lung,6332STDY9479169,2271,33538,1936.557,0.942,0.097,1.641,11,domain,Manual Annotation,Level 1
+144,10x Visium,Lung,Human Lung,6332STDY9479170,667,33538,5063.553,0.849,0.473,3.024,9,domain,Manual Annotation,Level 1
+145,10x Visium,Lung,Human Lung,6332STDY9479171,764,33538,4947.516,0.852,0.399,2.615,9,domain,Manual Annotation,Level 1
+146,10x Visium,Lung,Human Lung,6332STDY9479172,2699,33538,3081.41,0.908,0.214,2.262,13,domain,Manual Annotation,Level 1
+147,10x Visium,Skin,Squamous Cell Carcinoma,V10F24-015_A1,2793,33538,1989.785,0.941,0.152,2.154,12,domain,Unsupervised clustering,Level 3
+148,10x Visium,Skin,Squamous Cell Carcinoma,V10F24-015_B1,2496,33538,1328.368,0.96,0.088,1.893,10,domain,Unsupervised clustering,Level 3
+149,10x Visium,Skin,Squamous Cell Carcinoma,V10F24-015_C1,2752,33538,1474.697,0.956,0.101,1.921,9,domain,Unsupervised clustering,Level 3
+150,10x Visium,Skin,Squamous Cell Carcinoma,V10F24-015_D1,2363,33538,1035.98011,0.96911026,0.073717184,1.808456217,11,domain,Unsupervised clustering,Level 3
+151,ST,Brain,Mouse Brain,02A,240,23371,4720.208333,0.798031392,0.539900946,2.552624383,3,domain,Manual Annotation,Level 1
+152,ST,Brain,Mouse Brain,02B,218,23371,4996.587156,0.786205676,0.607929179,2.724672323,4,domain,Manual Annotation,Level 1
+153,ST,Brain,Mouse Brain,03A,269,23371,4793.869888,0.794879556,0.558165928,2.607749823,6,domain,Manual Annotation,Level 1
+154,ST,Brain,Mouse Brain,03B,273,23371,4504.336996,0.80726811,0.511804727,2.505988515,5,domain,Manual Annotation,Level 1
+155,ST,Brain,Mouse Brain,04A,286,23371,4171.167832,0.821523776,0.432640356,2.313640207,7,domain,Manual Annotation,Level 1
+156,ST,Brain,Mouse Brain,04B,324,23371,4817.101852,0.793885505,0.559238895,2.616028685,6,domain,Manual Annotation,Level 1
+157,ST,Brain,Mouse Brain,05A,353,23371,4039.056657,0.827176558,0.410178324,2.252172217,7,domain,Manual Annotation,Level 1
+158,ST,Brain,Mouse Brain,05B,351,23371,4177.888889,0.821236195,0.44994131,2.332449013,7,domain,Manual Annotation,Level 1
+159,ST,Brain,Mouse Brain,06A,384,23371,3723.054688,0.840697673,0.343172027,2.089675094,7,domain,Manual Annotation,Level 1
+160,ST,Brain,Mouse Brain,06B,398,23371,4369.630653,0.813031935,0.460605733,2.36493649,7,domain,Manual Annotation,Level 1
+161,ST,Brain,Mouse Brain,07A,481,23371,3945.326403,0.831187095,0.376170923,2.158143832,7,domain,Manual Annotation,Level 1
+162,ST,Brain,Mouse Brain,07B,452,23371,4395.840708,0.811910457,0.451098726,2.331222967,7,domain,Manual Annotation,Level 1
+163,ST,Brain,Mouse Brain,08A,377,23371,4197.180371,0.82041075,0.43554556,2.317686627,8,domain,Manual Annotation,Level 1
+164,ST,Brain,Mouse Brain,08B,462,23371,3205.922078,0.86282478,0.272743666,1.936415928,9,domain,Manual Annotation,Level 1
+165,ST,Brain,Mouse Brain,09A,482,23371,3925.639004,0.832029481,0.371726069,2.156778042,8,domain,Manual Annotation,Level 1
+166,ST,Brain,Mouse Brain,09B,501,23371,4879.700599,0.791207026,0.554040778,2.597900373,9,domain,Manual Annotation,Level 1
+167,ST,Brain,Mouse Brain,10A,474,23371,3027.687764,0.870451082,0.249916816,1.870231146,8,domain,Manual Annotation,Level 1
+168,ST,Brain,Mouse Brain,10B,511,23371,2859.800391,0.877634659,0.232551573,1.83394983,9,domain,Manual Annotation,Level 1
+169,ST,Brain,Mouse Brain,11A,484,23371,5081.159091,0.782587006,0.585647484,2.618026236,9,domain,Manual Annotation,Level 1
+170,ST,Brain,Mouse Brain,12A,501,23371,3922.251497,0.832174426,0.378204184,2.211447214,9,domain,Manual Annotation,Level 1
+171,ST,Brain,Mouse Brain,12B,542,23371,4663.560886,0.800455227,0.508520589,2.469843533,9,domain,Manual Annotation,Level 1
+172,ST,Brain,Mouse Brain,13A,429,23371,3535.351981,0.84872911,0.315243255,2.042931325,9,domain,Manual Annotation,Level 1
+173,ST,Brain,Mouse Brain,13B,503,23371,4515.868787,0.806774687,0.47687645,2.376445832,9,domain,Manual Annotation,Level 1
+174,ST,Brain,Mouse Brain,14A,569,23371,4648.862917,0.801084125,0.502739377,2.458970967,10,domain,Manual Annotation,Level 1
+175,ST,Brain,Mouse Brain,14B,582,23371,4673.54811,0.800027893,0.502809382,2.45489553,10,domain,Manual Annotation,Level 1
+176,ST,Brain,Mouse Brain,15A,552,23371,3371.798913,0.85572723,0.294990339,1.963239756,10,domain,Manual Annotation,Level 1
+177,ST,Brain,Mouse Brain,15B,540,23371,3748.362963,0.839614781,0.346464358,2.081787391,10,domain,Manual Annotation,Level 1
+178,ST,Brain,Mouse Brain,16A,553,23371,3854.392405,0.835077985,0.355465495,2.109900142,10,domain,Manual Annotation,Level 1
+179,ST,Brain,Mouse Brain,16B,513,23371,3834.762183,0.835917925,0.36766096,2.155122986,10,domain,Manual Annotation,Level 1
+180,ST,Brain,Mouse Brain,17B,597,23371,4380.050251,0.8125861,0.451974763,2.347234468,10,domain,Manual Annotation,Level 1
+181,ST,Brain,Mouse Brain,18A,571,23371,4462.126095,0.809074233,0.471682428,2.393434755,11,domain,Manual Annotation,Level 1
+182,ST,Brain,Mouse Brain,19A,579,23371,4155.569948,0.822191179,0.416531079,2.250417651,11,domain,Manual Annotation,Level 1
+183,ST,Brain,Mouse Brain,19B,596,23371,4053.619128,0.826553458,0.399059567,2.213469066,11,domain,Manual Annotation,Level 1
+184,ST,Brain,Mouse Brain,20A,550,23371,4026.094545,0.827731182,0.394552767,2.20751469,11,domain,Manual Annotation,Level 1
+185,ST,Brain,Mouse Brain,20B,527,23371,4329.358634,0.814755097,0.445184868,2.322810801,11,domain,Manual Annotation,Level 1
+186,seqFISH,Brain,OB,View0,252,9961,704.7896825,0.929245088,0.109468993,1.534418738,9,celltype,Unsupervised clustering + Marker genes,Level 1
+187,seqFISH,Brain,OB,View1,342,9961,614.0672515,0.938352851,0.09267635,1.492974904,6,celltype,Unsupervised clustering + Marker genes,Level 1
+188,seqFISH,Brain,OB,View2,305,9961,913.2688525,0.908315545,0.14003071,1.518375316,6,celltype,Unsupervised clustering + Marker genes,Level 1
+189,seqFISH,Brain,OB,View3,323,9961,942.0247678,0.905428695,0.144353381,1.514171913,5,celltype,Unsupervised clustering + Marker genes,Level 1
+190,seqFISH,Brain,OB,View4,346,9961,884.4739884,0.911206306,0.132362166,1.482565849,6,celltype,Unsupervised clustering + Marker genes,Level 1
+191,seqFISH,Brain,OB,View5,291,9961,1084.463918,0.891129011,0.16722434,1.498691366,7,celltype,Unsupervised clustering + Marker genes,Level 1
+192,seqFISH,Brain,OB,View6,191,9961,705.3926702,0.929184553,0.108650438,1.523351196,7,celltype,Unsupervised clustering + Marker genes,Level 1
+193,seqFISH,Brain,SVZ,View0,118,9961,2751.389831,0.723783774,0.440212592,1.54940748,8,celltype,Unsupervised clustering + Marker genes,Level 1
+194,seqFISH,Brain,SVZ,View1,108,9961,3140.62037,0.684708325,0.524700034,1.618973667,9,celltype,Unsupervised clustering + Marker genes,Level 1
+195,seqFISH,Brain,SVZ,View2,90,9961,4083.122222,0.590089125,0.799802563,1.862120831,11,celltype,Unsupervised clustering + Marker genes,Level 1
+196,seqFISH,Brain,SVZ,View3,105,9961,3545.666667,0.644045109,0.622614865,1.684194398,9,celltype,Unsupervised clustering + Marker genes,Level 1
+197,seqFISH,Brain,SVZ,View4,101,9961,3314.178218,0.667284588,0.575294142,1.651075224,11,celltype,Unsupervised clustering + Marker genes,Level 1
+198,seqFISH,Brain,SVZ,View5,276,9961,837.6630435,0.915905728,0.124583339,1.424854062,13,celltype,Unsupervised clustering + Marker genes,Level 1
+199,seqFISH,Brain,SVZ,View6,108,9961,1663.194444,0.83302937,0.262711612,1.536439602,4,celltype,Unsupervised clustering + Marker genes,Level 1
+200,MERFISH,Brain,Hypothalamus,Animal1_Bregma0.26,4832,155,53.21812914,0.656657231,1.474313346,4.865154065,9,celltype,Unsupervised clustering + Marker genes,Level 1
+201,MERFISH,Brain,Hypothalamus,Animal1_Bregma0.21,4787,155,53.05598496,0.657703323,1.574614918,5.242915947,9,celltype,Unsupervised clustering + Marker genes,Level 1
+202,MERFISH,Brain,Hypothalamus,Animal1_Bregma0.16,5169,155,53.71387115,0.653458896,1.479925114,4.871944461,8,celltype,Unsupervised clustering + Marker genes,Level 1
+203,MERFISH,Brain,Hypothalamus,Animal1_Bregma0.11,5070,155,54.91203156,0.645728829,1.530586313,4.887454631,9,celltype,Unsupervised clustering + Marker genes,Level 1
+204,MERFISH,Brain,Hypothalamus,Animal1_Bregma0.06,5343,155,59.05633539,0.618991385,1.654303649,4.957038208,9,celltype,Unsupervised clustering + Marker genes,Level 1
+205,MERFISH,Brain,Hypothalamus,Animal1_Bregma0.01,5338,155,63.02435369,0.593391267,1.840635273,5.07191344,9,celltype,Unsupervised clustering + Marker genes,Level 1
+206,MERFISH,Brain,Hypothalamus,Animal1_Bregma-0.04,5488,155,64.90652332,0.581248237,1.554645096,4.122380343,8,domain,Manual Annotation,Level 1
+207,MERFISH,Brain,Hypothalamus,Animal1_Bregma-0.04,5488,155,64.90652332,0.581248237,1.554645096,4.122380343,9,celltype,Unsupervised clustering + Marker genes,Level 1
+208,MERFISH,Brain,Hypothalamus,Animal1_Bregma-0.09,5557,155,66.89508728,0.568418792,1.657849459,4.218210025,8,domain,Manual Annotation,Level 1
+209,MERFISH,Brain,Hypothalamus,Animal1_Bregma-0.09,5557,155,66.89508728,0.568418792,1.657849459,4.218210025,9,celltype,Unsupervised clustering + Marker genes,Level 1
+210,MERFISH,Brain,Hypothalamus,Animal1_Bregma-0.14,5926,155,65.88255147,0.574951281,1.567621736,4.082608558,8,domain,Manual Annotation,Level 1
+211,MERFISH,Brain,Hypothalamus,Animal1_Bregma-0.14,5926,155,65.88255147,0.574951281,1.567621736,4.082608558,9,celltype,Unsupervised clustering + Marker genes,Level 1
+212,MERFISH,Brain,Hypothalamus,Animal1_Bregma-0.19,5803,155,65.44735482,0.577759001,1.628502992,4.273412312,8,domain,Manual Annotation,Level 1
+213,MERFISH,Brain,Hypothalamus,Animal1_Bregma-0.19,5803,155,65.44735482,0.577759001,1.628502992,4.273412312,9,celltype,Unsupervised clustering + Marker genes,Level 1
+214,MERFISH,Brain,Hypothalamus,Animal1_Bregma-0.24,5543,155,64.03554032,0.586867482,1.569149705,4.239423276,8,domain,Manual Annotation,Level 1
+215,MERFISH,Brain,Hypothalamus,Animal1_Bregma-0.24,5543,155,64.03554032,0.586867482,1.569149705,4.239423276,9,celltype,Unsupervised clustering + Marker genes,Level 1
+216,MERFISH,Brain,Hypothalamus,Animal1_Bregma-0.29,5517,155,65.75947073,0.57574535,1.549152481,4.095241903,9,celltype,Unsupervised clustering + Marker genes,Level 1
+217,MERFISH,Brain,Hypothalamus,Animal2_Bregma0.26,4447,155,59.11760738,0.618596081,1.608852846,4.735051294,9,celltype,Unsupervised clustering + Marker genes,Level 1
+218,MERFISH,Brain,Hypothalamus,Animal2_Bregma0.21,4572,155,58.71872266,0.621169531,1.604715835,4.736136952,8,celltype,Unsupervised clustering + Marker genes,Level 1
+219,MERFISH,Brain,Hypothalamus,Animal2_Bregma0.16,4561,155,57.91164218,0.626376502,1.521024359,4.555767183,9,celltype,Unsupervised clustering + Marker genes,Level 1
+220,MERFISH,Brain,Hypothalamus,Animal2_Bregma0.11,4873,155,60.63554279,0.60880295,1.590018751,4.589987729,9,celltype,Unsupervised clustering + Marker genes,Level 1
+221,MERFISH,Brain,Hypothalamus,Animal2_Bregma0.06,4621,155,59.92382601,0.613394671,1.60653025,4.680836836,9,celltype,Unsupervised clustering + Marker genes,Level 1
+222,MERFISH,Brain,Hypothalamus,Animal2_Bregma0.01,4890,155,63.14560327,0.592609011,1.564022034,4.278012505,9,celltype,Unsupervised clustering + Marker genes,Level 1
+223,MERFISH,Brain,Hypothalamus,Animal2_Bregma-0.04,5007,155,60.07070102,0.61244709,1.598097132,4.642196696,9,celltype,Unsupervised clustering + Marker genes,Level 1
+224,MERFISH,Brain,Hypothalamus,Animal2_Bregma-0.09,5149,155,62.54748495,0.596467839,1.715267953,4.754637082,9,celltype,Unsupervised clustering + Marker genes,Level 1
+225,MERFISH,Brain,Hypothalamus,Animal2_Bregma-0.14,5485,155,63.78614403,0.58847649,1.714941836,4.669635356,9,celltype,Unsupervised clustering + Marker genes,Level 1
+226,MERFISH,Brain,Hypothalamus,Animal2_Bregma-0.19,5625,155,62.64924444,0.595811326,1.621031317,4.502175032,9,celltype,Unsupervised clustering + Marker genes,Level 1
+227,MERFISH,Brain,Hypothalamus,Animal2_Bregma-0.24,5270,155,59.20664137,0.618021669,1.515419383,4.478098591,9,celltype,Unsupervised clustering + Marker genes,Level 1
+228,MERFISH,Brain,Hypothalamus,Animal2_Bregma-0.29,5151,155,58.4478742,0.622916941,1.349098671,4.031572236,9,celltype,Unsupervised clustering + Marker genes,Level 1
+229,MERFISH,Brain,Hypothalamus,Animal3_Bregma0.26,4586,155,59.22961186,0.617873472,1.573349019,4.644996614,8,celltype,Unsupervised clustering + Marker genes,Level 1
+230,MERFISH,Brain,Hypothalamus,Animal3_Bregma0.21,4688,155,59.37542662,0.616932731,1.613566938,4.779616209,9,celltype,Unsupervised clustering + Marker genes,Level 1
+231,MERFISH,Brain,Hypothalamus,Animal3_Bregma0.16,4858,155,60.0076163,0.612854088,1.591239524,4.653217112,9,celltype,Unsupervised clustering + Marker genes,Level 1
+232,MERFISH,Brain,Hypothalamus,Animal3_Bregma0.11,5075,155,57.15014778,0.631289369,1.459743077,4.462201575,9,celltype,Unsupervised clustering + Marker genes,Level 1
+233,MERFISH,Brain,Hypothalamus,Animal3_Bregma0.06,5187,155,62.65644881,0.595764846,1.634351294,4.597285136,9,celltype,Unsupervised clustering + Marker genes,Level 1
+234,MERFISH,Brain,Hypothalamus,Animal3_Bregma0.01,5038,155,64.44362842,0.584234655,1.65393505,4.457351637,9,celltype,Unsupervised clustering + Marker genes,Level 1
+235,MERFISH,Brain,Mouse Primary Motor Cortex,mouse1_slice1,2378,254,77.51892347,0.694807388,1.283512473,4.488053799,24,celltype,Supervised Transfer,Level 2
+236,MERFISH,Brain,Mouse Primary Motor Cortex,mouse1_slice10,2423,254,76.65290962,0.698216891,1.269926667,4.529390335,22,celltype,Supervised Transfer,Level 2
+237,MERFISH,Brain,Mouse Primary Motor Cortex,mouse1_slice21,2033,254,76.62026562,0.698345411,1.241155982,4.402433872,24,celltype,Supervised Transfer,Level 2
+238,MERFISH,Brain,Mouse Primary Motor Cortex,mouse1_slice31,3106,254,75.21957502,0.703859941,1.288517475,4.714821815,22,celltype,Supervised Transfer,Level 2
+239,MERFISH,Brain,Mouse Primary Motor Cortex,mouse1_slice40,4159,254,70.98052416,0.720549117,1.045895934,3.962552071,24,celltype,Supervised Transfer,Level 2
+240,MERFISH,Brain,Mouse Primary Motor Cortex,mouse1_slice50,4417,254,66.04482681,0.739980997,0.850573301,3.47520113,24,celltype,Supervised Transfer,Level 2
+241,MERFISH,Brain,Mouse Primary Motor Cortex,mouse1_slice62,4791,254,83.52723857,0.671152604,1.090021729,3.585221291,24,celltype,Supervised Transfer,Level 2
+242,MERFISH,Brain,Mouse Primary Motor Cortex,mouse1_slice71,5747,254,83.24447538,0.672265845,1.132484078,3.742075443,24,celltype,Supervised Transfer,Level 2
+243,MERFISH,Brain,Mouse Primary Motor Cortex,mouse1_slice81,5261,254,84.65215738,0.66672379,1.099574685,3.577080965,24,celltype,Supervised Transfer,Level 2
+244,MERFISH,Brain,Mouse Primary Motor Cortex,mouse1_slice91,5661,254,82.39621975,0.675605434,1.05276978,3.51055336,24,celltype,Supervised Transfer,Level 2
+245,MERFISH,Brain,Mouse Primary Motor Cortex,mouse1_slice102,6731,254,81.33605705,0.679779303,1.052677512,3.548040867,24,celltype,Supervised Transfer,Level 2
+246,STARmap,Brain,Mouse Medial Prefrontal Cortex,BZ5,1049,166,50.7435653,0.694315872,4.033106688,12.14851149,4,domain,Manual Annotation,Level 1
+247,STARmap,Brain,Mouse Medial Prefrontal Cortex,BZ5,1049,166,50.7435653,0.694315872,4.033106688,12.14851149,15,celltype,Unsupervised clustering + Marker genes,Level 1
+248,STARmap,Brain,Mouse Medial Prefrontal Cortex,BZ9,1053,166,38.91547958,0.7655694,2.183566174,8.907416064,4,domain,Manual Annotation,Level 1
+249,STARmap,Brain,Mouse Medial Prefrontal Cortex,BZ9,1053,166,38.91547958,0.7655694,2.183566174,8.907416064,15,celltype,Unsupervised clustering + Marker genes,Level 1
+250,STARmap,Brain,Mouse Medial Prefrontal Cortex,BZ14,1088,166,50.49908088,0.695788669,2.675125133,8.356574044,4,domain,Manual Annotation,Level 1
+251,STARmap,Brain,Mouse Medial Prefrontal Cortex,BZ14,1088,166,50.49908088,0.695788669,2.675125133,8.356574044,15,celltype,Unsupervised clustering + Marker genes,Level 1
+252,STARmap,Brain,Mouse Visual Cortex,20180505_BY3_1kgenes,1207,1020,235.927092,0.768698929,0.459176064,1.951001763,7,domain,Manual Annotation,Level 1
+253,STARmap,Brain,Mouse Visual Cortex,20180505_BY3_1kgenes,1207,1020,235.927092,0.768698929,0.459176064,1.951001763,15,celltype,Unsupervised clustering + Marker genes,Level 1
+254,STARmap,Brain,Mouse Visual Cortex,20180410_BY3_1kgenes,930,1020,295.2451613,0.71054396,0.675042167,2.244222969,15,celltype,Unsupervised clustering + Marker genes,Level 1
+255,Stereoseq,Brain,Mouse Olfactory Bulb,S1,107416,26145,578.8390649,0.97786043,0.055626585,2.468040868,12,domain,Layer marker genes,Level 1
+256,Stereoseq,Brain,Mouse Olfactory Bulb,S2,104931,23815,565.6727183,0.976247209,0.059584618,2.455677096,11,domain,Layer marker genes,Level 1
+257,Stereoseq,Brain,Mouse Hemi-Brain,Data_Whole,38746,26177,1335.316704,0.948988933,0.136036513,2.518873163,20,domain,Layer marker genes,Level 1
+258,Stereoseq,Brain,Mouse Hemi-Brain,Cell_Bin_Data_Whole,46436,25879,793.3019425,0.969098742,0.054172193,1.97787654,28,celltype,Cell type marker genes,Level 1
+259,Stereoseq,Brain,MOSAT,E16.5_E1S3_cell_bin_whole_brain,64718,23368,554.960861,0.976235535,0.049601873,2.274148405,33,celltype,Cell type marker genes,Level 1
+260,VisiumHD,Brain,Mouse Brain,FFPE,98917,19059,690.0716156,0.963792874,0.047142841,1.235876203,15,domain,Unsupervised clustering,Level 3
+261,VisiumHD,Brain,Mouse Brain,Fixed Frozen,109332,19059,926.6588739,0.95137946,0.066435419,1.297349334,19,domain,Unsupervised clustering,Level 3
+262,VisiumHD,Brain,Mouse Brain,Fresh Frozen,113885,19059,2261.583018,0.881337792,0.215912387,1.652246356,26,domain,Unsupervised clustering,Level 3
+263,VisiumHD,Intestine,Colorectal Cancer,Sample_P1_CRC,378837,18085,202.0599176,0.988827209,0.014394292,1.237089128,9,celltype,Unsupervised clustering + Marker genes,Level 1
+264,VisiumHD,Intestine,Colorectal Cancer,Sample_P2_CRC,461459,18085,456.5817397,0.974753567,0.031434167,1.236368821,9,celltype,Unsupervised clustering + Marker genes,Level 1
+265,VisiumHD,Intestine,Colorectal Cancer,Sample_P5_CRC,448083,18085,364.0773004,0.979868548,0.02872204,1.330401774,9,celltype,Unsupervised clustering + Marker genes,Level 1
+266,CosMx,Lung,NSCLC,NSCLC_Sample10,54002,960,124.0610903,0.870769698,0.325772285,2.077733278,18,celltype,Supervised Transfer,Level 2
+267,CosMx,Lung,NSCLC,NSCLC_Sample10,54002,960,124.0610903,0.870769698,0.325772285,2.077733278,9,niche,Unsupervised clustering + Cell type neighborhood composition,Level 2
+268,CosMx,Lung,NSCLC,NSCLC_Sample16,52865,960,115.1428734,0.880059507,0.278567314,1.949103951,18,celltype,Supervised Transfer,Level 2
+269,CosMx,Lung,NSCLC,NSCLC_Sample16,52865,960,115.1428734,0.880059507,0.278567314,1.949103951,9,niche,Unsupervised clustering + Cell type neighborhood composition,Level 2
+270,CosMx,Lung,NSCLC,NSCLC_Sample22,57993,960,132.4556067,0.86202541,0.380625248,2.17404747,18,celltype,Supervised Transfer,Level 2
+271,CosMx,Lung,NSCLC,NSCLC_Sample22,57993,960,132.4556067,0.86202541,0.380625248,2.17404747,10,niche,Unsupervised clustering + Cell type neighborhood composition,Level 2
+272,CosMx,Lung,NSCLC,NSCLC_Sample28,58423,960,139.6604933,0.854520319,0.422394425,2.289207697,18,celltype,Supervised Transfer,Level 2
+273,CosMx,Lung,NSCLC,NSCLC_Sample28,58423,960,139.6604933,0.854520319,0.422394425,2.289207697,10,niche,Unsupervised clustering + Cell type neighborhood composition,Level 2
+274,CosMx,Brain,Mouse Brain,Mouse_Brain_Hemisphere,48180,950,374.0832503,0.606228158,1.637164078,3.619080402,44,celltype,Unsupervised clustering + Marker genes,Level 1
+275,CosMx,Brain,Mouse Brain,Mouse_Brain_Hemisphere,48180,950,374.0832503,0.606228158,1.637164078,3.619080402,18,niche,Unsupervised clustering + Cell type neighborhood composition,Level 2
+276,CosMx,Brain,Mouse Brain,Mouse_Brain_Hippocampus,38736,950,379.8608271,0.600146498,1.844746924,3.911324415,42,celltype,Unsupervised clustering + Marker genes,Level 1
+277,CosMx,Brain,Mouse Brain,Mouse_Brain_Hippocampus,38736,950,379.8608271,0.600146498,1.844746924,3.911324415,16,niche,Unsupervised clustering + Cell type neighborhood composition,Level 2
+278,Xenium,Brain,Human Breast Cancer,Human_Breast_Cancer_Rep1,159226,313,64.84911384,0.792814333,0.632052958,2.812106371,19,celltype,Supervised Transfer,Level 2
+279,Xenium,Brain,Human Breast Cancer,Human_Breast_Cancer_Rep2,115275,313,65.43219258,0.790951461,0.631865382,2.788365841,19,celltype,Supervised Transfer,Level 2
+280,Xenium,Brain,Mouse Brain,Mouse_Brain_MultiSection1,155133,248,81.85827,0.669926331,1.213002563,3.382947683,83,domain,Manual Annotation,Level 1
+281,Slideseq,Brain,Mouse OB,GSM5173925_OB1_Slide1,15820,21354,481.4414665,0.977454272,0.035740092,1.46485579,4,domain,Layer marker genes,Level 1
+282,Slideseq,Brain,Mouse OB,GSM5173926_OB1_Slide2,13000,21645,684.5317692,0.968374601,0.054944467,1.613506198,4,domain,Layer marker genes,Level 1
+283,Slideseq,Brain,Mouse OB,GSM5173927_OB1_Slide3,16180,22068,514.742089,0.976674729,0.03780669,1.5469203,4,domain,Layer marker genes,Level 1
+284,Slideseq,Brain,Mouse OB,GSM5173928_OB1_Slide4,19553,22019,481.0852555,0.978151358,0.036946058,1.64006567,4,domain,Layer marker genes,Level 1
+285,Slideseq,Brain,Mouse OB,GSM5173929_OB1_Slide5,22190,22170,449.8856242,0.979707459,0.032737978,1.566517353,4,domain,Layer marker genes,Level 1
+286,Slideseq,Brain,Mouse OB,GSM5173930_OB1_Slide6,23572,21997,476.6545478,0.978330929,0.035518959,1.55371511,4,domain,Layer marker genes,Level 1
+287,Slideseq,Brain,Mouse OB,GSM5173931_OB1_Slide7,24619,21651,384.3489581,0.982247981,0.027229425,1.484426737,4,domain,Layer marker genes,Level 1
+288,Slideseq,Brain,Mouse OB,GSM5173932_OB1_Slide8,19179,21646,471.0778977,0.978237185,0.034833964,1.506183505,4,domain,Layer marker genes,Level 1
+289,Slideseq,Brain,Mouse OB,GSM5173933_OB1_Slide9,28311,21957,431.1016566,0.980366095,0.029224487,1.415142536,4,domain,Layer marker genes,Level 1
+290,Slideseq,Brain,Mouse OB,GSM5173934_OB1_Slide10,26542,22167,474.8946198,0.978576505,0.032578502,1.453940392,4,domain,Layer marker genes,Level 1
+291,Slideseq,Brain,Mouse OB,GSM5173935_OB1_Slide11,22199,22428,391.1686112,0.982558917,0.026055386,1.419736743,4,domain,Layer marker genes,Level 1
+292,Slideseq,Brain,Mouse OB,GSM5173936_OB1_Slide12,26868,22003,501.1847551,0.977221981,0.035378072,1.44164145,4,domain,Layer marker genes,Level 1
+293,Slideseq,Brain,Mouse OB,GSM5173937_OB1_Slide13,24549,22771,393.5739949,0.982715999,0.025823055,1.400375724,4,domain,Layer marker genes,Level 1
+294,Slideseq,Brain,Mouse OB,GSM5173938_OB1_Slide14,18453,22199,405.6625481,0.981726089,0.027406456,1.412802696,4,domain,Layer marker genes,Level 1
+295,Slideseq,Brain,Mouse OB,GSM5173939_OB1_Slide15,27014,21826,439.3765455,0.979869122,0.029796217,1.409368157,4,domain,Layer marker genes,Level 1
+296,Slideseq,Brain,Mouse OB,GSM5173940_OB1_Slide16,18298,21815,454.2533064,0.97917702,0.030542111,1.356932878,4,domain,Layer marker genes,Level 1
+297,Slideseq,Brain,Mouse OB,GSM5173941_OB1_Slide17,19257,21809,457.8507036,0.979006341,0.034415133,1.601322889,4,domain,Layer marker genes,Level 1
+298,Slideseq,Brain,Mouse OB,GSM5173942_OB1_Slide18,18297,21641,388.529595,0.982046597,0.028019961,1.503035188,4,domain,Layer marker genes,Level 1
+299,Slideseq,Brain,Mouse OB,GSM5173943_OB1_Slide19,11593,21602,382.5790563,0.982289646,0.027557729,1.525627494,4,domain,Layer marker genes,Level 1
+300,Slideseq,Brain,Mouse OB,GSM5173944_OB1_Slide20,4457,21434,469.9192282,0.97807599,0.031602185,1.336429119,2,domain,Layer marker genes,Level 1
+301,Slideseq,Brain,Brain,Puck_200115_08_data,41614,4000,12.26243572,0.973608984,0.003250162,1.082333344,14,celltype,Supervised Transfer,Level 2
+302,Slideseq,Brain,Brain,Puck_191204_01_data,34199,22457,338.8756104,0.984910023,0.022557816,1.363555598,42,celltype,Unsupervised clustering,Level 3
+303,Slideseq,Brain,Brain,Puck_200127_15_data,21724,21220,344.1239182,0.983783039,0.021915203,1.22629446,31,celltype,Unsupervised clustering,Level 3
+304,Slideseq,Brain,Brain,Puck_200306_03_data,42550,22542,345.1429847,0.984688893,0.022492483,1.318055305,29,celltype,Unsupervised clustering,Level 3
+305,Slideseq,Brain,Brain,SCP948_data,39496,23096,253.910396,0.989006304,0.014372646,1.246422208,26,celltype,Unsupervised clustering,Level 3
+306,Slideseq,Lung,Human Lung,Puck_200727_08,18851,25582,380.6774707,0.985119323,0.022059586,1.388177872,9,celltype,Supervised Transfer,Level 2
+307,Slideseq,Lung,Human Lung,Puck_200727_09,14990,24824,322.6913276,0.987000833,0.018462075,1.34760499,9,celltype,Supervised Transfer,Level 2
+308,Slideseq,Lung,Human Lung,Puck_200727_10,15366,25594,415.4450735,0.983767872,0.024834877,1.418668747,9,celltype,Supervised Transfer,Level 2
+309,Slideseq,Lung,Human Lung,Puck_220408_13,40217,29731,180.0344133,0.993944556,0.00765919,1.221635699,8,celltype,Supervised Transfer,Level 2
+310,Slideseq,Lung,Human Lung,Puck_220408_14,37568,30623,217.2539395,0.99290553,0.009648294,1.297518373,8,celltype,Supervised Transfer,Level 2
+311,Slideseq,Lung,Human Lung,Puck_220408_15,35839,30246,236.354251,0.992185603,0.01102687,1.355400205,8,celltype,Supervised Transfer,Level 2
+312,Slideseq,Lung,Human Lung,Puck_220408_20,37563,31174,232.7875569,0.992532638,0.010380092,1.331783533,8,celltype,Supervised Transfer,Level 2
+313,Slideseq,Melanoma,Melanoma brain metastasis,ECM01_rep1_data,27325,24710,519.3829826,0.978980859,0.027292395,1.237333894,10,celltype,Unsupervised clustering,Level 3
+314,Slideseq,Melanoma,Melanoma brain metastasis,ECM01_rep2_data,24150,25036,532.539793,0.978729038,0.027967673,1.253409147,9,celltype,Unsupervised clustering,Level 3
+315,Slideseq,Melanoma,Melanoma brain metastasis,ECM06_data,25461,25850,336.3252033,0.986989354,0.019468252,1.318762541,9,celltype,Unsupervised clustering,Level 3
+316,Slideseq,Melanoma,Melanoma brain metastasis,ECM08_data,30015,27089,400.616092,0.985211116,0.019655148,1.231531382,10,celltype,Unsupervised clustering,Level 3
+317,Slideseq,Melanoma,Melanoma brain metastasis,ECM10_data,37363,28763,466.5653722,0.983778974,0.023255074,1.295276165,9,celltype,Unsupervised clustering,Level 3
+318,Slideseq,Melanoma,Melanoma brain metastasis,MBM05_rep1_data,29536,27854,425.6773429,0.984717551,0.020594889,1.231559634,14,celltype,Unsupervised clustering,Level 3
+319,Slideseq,Melanoma,Melanoma brain metastasis,MBM05_rep2_data,32228,29080,433.2799739,0.985100414,0.021526668,1.297892451,11,celltype,Unsupervised clustering,Level 3
+320,Slideseq,Melanoma,Melanoma brain metastasis,MBM06_data,27072,29129,547.4316268,0.981206645,0.029415578,1.364852905,16,celltype,Unsupervised clustering,Level 3
+321,Slideseq,Melanoma,Melanoma brain metastasis,MBM07_data,38462,27648,508.0629452,0.981623881,0.028801182,1.386504889,11,celltype,Unsupervised clustering,Level 3
+322,Slideseq,Melanoma,Melanoma brain metastasis,MBM08_data,35054,28244,404.0881212,0.985692957,0.020493435,1.305021524,14,celltype,Unsupervised clustering,Level 3
+323,Slideseq,Melanoma,Melanoma brain metastasis,MBM11_rep1_data,27475,28751,321.7162875,0.988810257,0.015671456,1.297815204,14,celltype,Unsupervised clustering,Level 3
+324,Slideseq,Melanoma,Melanoma brain metastasis,MBM11_rep2_data,39049,30314,459.3945556,0.984845466,0.02479573,1.445392609,12,celltype,Unsupervised clustering,Level 3
+325,Slideseq,Melanoma,Melanoma brain metastasis,MBM11_rep3_data,9628,27158,277.9982343,0.989763671,0.012972774,1.21995604,18,celltype,Unsupervised clustering,Level 3
+326,Slideseq,Melanoma,Melanoma brain metastasis,MBM13_data,32657,26681,376.9341029,0.985872565,0.018832784,1.245789051,9,celltype,Unsupervised clustering,Level 3
+327,Slideseq,Melanoma,Melanoma brain metastasis,MBM18_data,38423,27746,459.6623897,0.983433202,0.023424502,1.284812331,9,celltype,Unsupervised clustering,Level 3
+328,Slideseq,Testis,mammalian spermatogenesis,Diabetes_1_data,27194,24420,633.1583805,0.974072138,0.035625284,1.282769023,9,celltype,Supervised Transfer,Level 2
+329,Slideseq,Testis,mammalian spermatogenesis,Diabetes_2_data,42776,24263,358.9477277,0.985205963,0.02084992,1.285786366,9,celltype,Supervised Transfer,Level 2
+330,Slideseq,Testis,mammalian spermatogenesis,Diabetes_3_data,33441,23514,537.6331748,0.977135614,0.034496191,1.373895567,9,celltype,Supervised Transfer,Level 2
+331,Slideseq,Testis,mammalian spermatogenesis,WT1_data,31659,24450,567.0653527,0.976807143,0.031563317,1.278360821,9,celltype,Supervised Transfer,Level 2
+332,Slideseq,Testis,mammalian spermatogenesis,WT2_data,33059,23741,598.8784597,0.974774506,0.038200536,1.36832199,9,celltype,Supervised Transfer,Level 2
+333,Slideseq,Testis,mammalian spermatogenesis,WT3_data,39206,23705,510.5959802,0.97846041,0.033723408,1.454715603,9,celltype,Supervised Transfer,Level 2
+334,Slideseq,Lymph Node,Human Lymph Node,Puck_201014_06,26027,23887,307.4912207,0.987127257,0.016363595,1.211912394,6,celltype,Supervised Transfer,Level 2
+335,Slideseq,Lymph Node,Human Lymph Node,Puck_220215_11,21003,28575,291.726182,0.98979086,0.015186326,1.43021965,9,celltype,Supervised Transfer,Level 2
+336,Slideseq,Lymph Node,Human Lymph Node,Puck_220215_13,27757,30306,329.1182765,0.989140161,0.015692091,1.391689539,9,celltype,Supervised Transfer,Level 2
+337,Slideseq,Lymph Node,Human Lymph Node,Puck_220215_14,36785,32013,362.8178334,0.988666547,0.017045032,1.426890254,9,celltype,Supervised Transfer,Level 2
+338,Slideseq,Lymph Node,Human Lymph Node,Puck_220408_07,40982,30146,309.1094383,0.989746254,0.014955488,1.407192588,9,celltype,Supervised Transfer,Level 2
+339,Slideseq,Lymph Node,Human Lymph Node,Puck_220408_09,37275,29418,280.1802549,0.99047589,0.012675118,1.297087908,9,celltype,Supervised Transfer,Level 2
+340,Slideseq,Lymph Node,Human Lymph Node,Puck_220408_12,37193,29874,265.2813433,0.991119993,0.011556405,1.27026546,9,celltype,Supervised Transfer,Level 2
+341,Slideseq,Tonsil,Human Tonsil,Puck_210119_22,26917,23252,201.6264443,0.991328641,0.010933896,1.233508587,6,celltype,Supervised Transfer,Level 2
+342,Slideseq,Spleen,Mouse Spleen,Puck_200727_02,11510,20218,289.0466551,0.985703499,0.019152813,1.28425169,6,celltype,Supervised Transfer,Level 2
+343,Slideseq,Kidney,Human Normal,Puck_200104_15,24366,25377,140.9362226,0.994446301,0.004127622,0.774119794,13,celltype,Supervised Transfer,Level 2
+344,Slideseq,Kidney,Human Normal,Puck_200104_16,22471,23266,80.56018869,0.996537428,0.002514115,0.736938536,13,celltype,Supervised Transfer,Level 2
+345,Slideseq,Kidney,Human Normal,Puck_200104_17,16705,25667,215.6527387,0.991598054,0.006435486,0.854824722,8,celltype,Supervised Transfer,Level 2
+346,Slideseq,Kidney,Human Normal,Puck_200104_18,16720,26129,218.4635167,0.99163904,0.006434836,0.861434221,8,celltype,Supervised Transfer,Level 2
+347,Slideseq,Kidney,Human Normal,Puck_200104_20,26695,25236,129.5588312,0.994866111,0.003785595,0.749544203,12,celltype,Supervised Transfer,Level 2
+348,Slideseq,Kidney,Human Normal,Puck_200104_21,20661,24311,84.70151493,0.996515918,0.002511987,0.726727903,12,celltype,Supervised Transfer,Level 2
+349,Slideseq,Kidney,Human Normal,Puck_200104_23,14698,25041,130.938495,0.994771036,0.003996139,0.903890669,9,celltype,Supervised Transfer,Level 2
+350,Slideseq,Kidney,Human Normal,Puck_200113_08,22386,24562,82.90846958,0.996624523,0.002547472,0.849032044,12,celltype,Supervised Transfer,Level 2
+351,Slideseq,Kidney,Human Normal,Puck_200113_09,12946,22592,97.90653484,0.995666318,0.003236909,0.834318995,8,celltype,Supervised Transfer,Level 2
+352,Slideseq,Kidney,Human Normal,Puck_200113_10,17280,25307,202.8560185,0.991984193,0.006281496,0.897772133,8,celltype,Supervised Transfer,Level 2
+353,Slideseq,Kidney,Mouse Normal,Puck_191109_07,21825,20550,191.5451546,0.990679068,0.012688714,1.291848898,14,celltype,Supervised Transfer,Level 2
+354,Slideseq,Kidney,Mouse Normal,Puck_191109_08,26486,19446,84.37408442,0.995661108,0.00552324,1.216152787,13,celltype,Supervised Transfer,Level 2
+355,Slideseq,Kidney,Mouse Normal,Puck_191109_09,25279,20262,129.1000831,0.993628463,0.008451241,1.252716422,14,celltype,Supervised Transfer,Level 2
+356,Slideseq,Kidney,Mouse Normal,Puck_191109_10,12465,19388,121.456077,0.993735503,0.007990991,1.21604526,13,celltype,Supervised Transfer,Level 2
+357,Slideseq,Kidney,Mouse Normal,Puck_191112_02,17926,21286,221.4145933,0.989598112,0.016012911,1.396500707,14,celltype,Supervised Transfer,Level 2
+358,Slideseq,Kidney,Mouse Normal,Puck_191112_04,13096,20812,187.3225412,0.990999301,0.012451447,1.286999464,9,celltype,Supervised Transfer,Level 2
+359,Slideseq,Kidney,Mouse Normal,Puck_191112_05,9075,19621,71.24363636,0.996369011,0.005150831,1.304499984,12,celltype,Supervised Transfer,Level 2
+360,Slideseq,Kidney,Mouse Normal,Puck_191112_07,12675,19157,109.9015385,0.994263113,0.00793321,1.291994929,13,celltype,Supervised Transfer,Level 2
+361,Slideseq,Kidney,Mouse Normal,Puck_191112_13,14497,17669,52.73801476,0.997015224,0.003983201,1.231522322,11,celltype,Supervised Transfer,Level 2
+362,Slideseq,Kidney,Mouse Normal,Puck_191204_13,30477,22102,270.7393772,0.987750458,0.016941719,1.253705263,14,celltype,Supervised Transfer,Level 2
+363,Slideseq,Kidney,Mouse Diabetic Kidney Disease,Puck_191109_14,10930,18956,102.6534309,0.994584647,0.008096117,1.428996086,12,celltype,Supervised Transfer,Level 2
+364,Slideseq,Kidney,Mouse Diabetic Kidney Disease,Puck_191109_18,16582,18064,61.87329635,0.996574773,0.004977034,1.422188163,13,celltype,Supervised Transfer,Level 2
+365,Slideseq,Kidney,Mouse Diabetic Kidney Disease,Puck_191109_19,16936,18447,62.17932215,0.996629299,0.004400163,1.241214156,13,celltype,Supervised Transfer,Level 2
+366,Slideseq,Kidney,Mouse Diabetic Kidney Disease,Puck_191109_20,12038,17811,58.60375478,0.996709688,0.004765029,1.430273533,13,celltype,Supervised Transfer,Level 2
+367,Slideseq,Kidney,Mouse Diabetic Kidney Disease,Puck_191112_08,6968,18662,80.60706085,0.995680685,0.00508629,1.130741,12,celltype,Supervised Transfer,Level 2
+368,Slideseq,Kidney,Mouse Diabetic Kidney Disease,Puck_191204_03,18868,21508,349.742368,0.983738964,0.025502034,1.374382973,14,celltype,Supervised Transfer,Level 2
+369,Slideseq,Kidney,Mouse Diabetic Kidney Disease,Puck_191204_04,20917,21855,326.9578811,0.985039676,0.022873504,1.360675335,14,celltype,Supervised Transfer,Level 2
+370,Slideseq,Kidney,Mouse Diabetic Kidney Disease,Puck_191204_05,26388,21564,293.687699,0.986380648,0.019791855,1.314982176,14,celltype,Supervised Transfer,Level 2
+371,Slideseq,Kidney,Mouse Diabetic Kidney Disease,Puck_191204_07,29130,22121,234.9705458,0.989377942,0.015222518,1.300891161,14,celltype,Supervised Transfer,Level 2
+372,Slideseq,Kidney,Mouse Diabetic Kidney Disease,Puck_191204_08,21518,21265,193.4272237,0.990903963,0.012158376,1.231231689,14,celltype,Supervised Transfer,Level 2
+373,Slideseq,Kidney,Mouse Autosomal Dominant Polycystic Kidney Disease,Puck_191223_21,21027,20803,391.7849907,0.981166899,0.029463859,1.407634974,14,celltype,Supervised Transfer,Level 2
+374,Slideseq,Kidney,Mouse Autosomal Dominant Polycystic Kidney Disease,Puck_191223_22,18459,21695,436.4575004,0.979882116,0.028967535,1.304166675,10,celltype,Supervised Transfer,Level 2
+375,Slideseq,Kidney,Mouse Autosomal Dominant Polycystic Kidney Disease,Puck_191223_23,23176,21431,343.6642216,0.983964154,0.023433484,1.308913708,14,celltype,Supervised Transfer,Level 2
+376,Slideseq,Kidney,Mouse Autosomal Dominant Polycystic Kidney Disease,Puck_191223_24,27116,21486,306.3289571,0.985742858,0.020359026,1.296864867,14,celltype,Supervised Transfer,Level 2
+377,Slideseq,Kidney,Mouse Autosomal Dominant Polycystic Kidney Disease,Puck_200102_09,24405,21651,413.1795943,0.980916374,0.026858885,1.262877464,10,celltype,Supervised Transfer,Level 2
+378,Slideseq,Kidney,Mouse Autosomal Dominant Polycystic Kidney Disease,Puck_200104_06,28902,21086,296.7635112,0.98592604,0.019267663,1.258529067,12,celltype,Supervised Transfer,Level 2
+379,Slideseq,Kidney,Mouse Autosomal Dominant Polycystic Kidney Disease,Puck_200104_07,28401,21263,286.5524805,0.986523422,0.019271897,1.297987103,12,celltype,Supervised Transfer,Level 2
+380,Slideseq,Kidney,Mouse Autosomal Dominant Polycystic Kidney Disease,Puck_200104_09,23887,21477,390.6932641,0.98180876,0.026945865,1.322176576,13,celltype,Supervised Transfer,Level 2
+381,Slideseq,Kidney,Mouse Autosomal Dominant Polycystic Kidney Disease,Puck_200104_10,24454,20322,173.1365421,0.991480339,0.010847545,1.191886544,13,celltype,Supervised Transfer,Level 2
+382,Slideseq,Kidney,Mouse Autosomal Dominant Polycystic Kidney Disease,Puck_200104_14,20613,20986,352.7112987,0.983193019,0.024484957,1.299718142,10,celltype,Supervised Transfer,Level 2
