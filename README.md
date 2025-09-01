@@ -19,7 +19,10 @@ We conducted a comprehensive benchmark of **14 spatial clustering methods** acro
 | STARmap    | Brain          | No         | BASS, stLearn, Banksy, PRECAST, CellCharter    |
 | MERFISH    | Brain          | No         | BASS, stLearn, SpatialMGCN, PRECAST, Banksy    |
 | CosMx      | Brain          | No         | BASS, Banksy, SEDR, DeepST, CellCharter        |
+| CosMx      | Lung           | No         | Banksy, BASS, stLearn, DeepST, SpatialMGCN     |
 | Xenium     | Brain          | No         | GraphST, SpaceFlow, BASS, STAGATE, Banksy      |
+| Xenium     | Breast         | No         | Banksy, stLearn, BASS, SpatialMGCN, SEDR       |
+| Visium HD  | Intestine      | No         | stLearn, Banksy, SEDR, SpaGCN, SpatialMGCN     |
 | 10× Visium | Breast         | No         | stLearn, PRECAST, BayesSpace, SpaGCN, STAGATE  |
 | 10× Visium | Heart          | No         | stLearn, BASS, PRECAST, GraphST, STAGATE       |
 | 10× Visium | Intestine      | No         | CCST, DeepST, CellCharter, stLearn, STAGATE    |
