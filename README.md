@@ -2,7 +2,7 @@
 **Benchmarking spatial clustering methods for spatially resolved transcriptomics**
 
 ## Datasets and Methods
-Please refer to **[Table1](./Table1_Dataset.xlsx)** for dataset details and the **[Methods](./Method)** folder for example code of each clustering method.
+Please refer to **[Table1](./Table1_Dataset.xlsx)** for dataset details and the **[Methods](./Methods)** folder for example code of each clustering method.
 
 ## Overall Performance
 We conducted a comprehensive benchmark of **14 spatial clustering methods** across multiple **technologies, organs, and biological replicates**, and provided **method recommendations** tailored to different application scenarios.
