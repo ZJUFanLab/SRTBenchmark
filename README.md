@@ -48,3 +48,4 @@ To facilitate use of this optimized pipeline, we also provide versions of the me
 | SpaceFlow     | Yes           | No              | 3000 SVGs      | Yes            | No               |
 | SpatialMGCN   | Yes           | No              | 3000 SVGs      | No             | No               |
 | stLearn       | Yes           | No              | 3000 SVGs      | No             | 20 PCs           |
+<img src="./1.png" width="800">
