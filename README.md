@@ -2,21 +2,31 @@
 **Benchmarking spatial clustering methods for spatially resolved transcriptomics**
 
 ## Datasets and Methods
-Please refer to **Table1** for dataset details and the **Methods** folder for example code of each clustering method.
+Please refer to **[Table1](./figures/Overall_accuracy.png)** for dataset details and the **Methods** folder for example code of each clustering method.
 
 ## Overall Performance
 We conducted a comprehensive benchmark of **14 spatial clustering methods** across multiple **technologies, organs, and biological replicates**, and provided **method recommendations** tailored to different application scenarios.
 
 <img src="./figures/Overall_accuracy.png" width="800">
 
-| Technology      | Organ          | Replicates | Recommendation (top 5)                         |
-|-----------------|----------------|------------|------------------------------------------------|
-| High Resolution | Brain          | No         | BASS, stLearn, Banksy, SpaGCN, STAGATE       |
-| Low Resolution  | Brain          | No         | STAGATE, GraphST, SEDR, BASS, BayesSpace     |
-| 10x Visium      | High continuity| No         | STAGATE, DeepST, SEDR, CCST, GraphST         |
-| 10x Visium      | Low continuity | No         | PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace|
-| 10x Visium      | Brain          | Yes        | DeepST, Banksy, SEDR, GraphST, STAGATE       |
-| MERFISH         | Brain          | Yes        | BASS, stLearn, SpaGCN, PRECAST, Banksy       |
+| Technology | Organ          | Replicates | Recommendation (top 5)                         |
+|------------|----------------|------------|------------------------------------------------|
+| ST         | Brain          | No         | BASS, BayesSpace, PRECAST, CCST, stLearn       |
+| 10× Visium | Brain          | No         | STAGATE, GraphST, SEDR, Banksy, DeepST         |
+| Slide-seq  | Brain          | No         | STAGATE, SpaGCN, BASS, CCST, SpaceFlow         |
+| Stereo-seq | Brain          | No         | BASS, SpaGCN, stLearn, STAGATE, SpatialMGCN    |
+| seqFISH+   | Brain          | No         | PRECAST, BASS, stLearn, CellCharter, SpaGCN    |
+| STARmap    | Brain          | No         | BASS, stLearn, Banksy, PRECAST, CellCharter    |
+| MERFISH    | Brain          | No         | BASS, stLearn, SpatialMGCN, PRECAST, Banksy    |
+| CosMx      | Brain          | No         | BASS, Banksy, SEDR, DeepST, CellCharter        |
+| Xenium     | Brain          | No         | GraphST, SpaceFlow, BASS, STAGATE, Banksy      |
+| 10× Visium | Breast         | No         | stLearn, PRECAST, BayesSpace, SpaGCN, STAGATE  |
+| 10× Visium | Heart          | No         | stLearn, BASS, PRECAST, GraphST, STAGATE       |
+| 10× Visium | Intestine      | No         | CCST, DeepST, CellCharter, stLearn, STAGATE    |
+| 10× Visium | Liver          | No         | STAGATE, PRECAST, stLearn, SpatialMGCN, DeepST |
+| 10× Visium | Lung           | No         | PRECAST, stLearn, GraphST, STAGATE, BayesSpace |
+| 10x Visium | Brain          | Yes        | DeepST, Banksy, SEDR, GraphST, STAGATE         |
+| MERFISH    | Brain          | Yes        | BASS, stLearn, SpaGCN, PRECAST, Banksy         |
 
 ## Optimal Preprocessing Pipelines
 We tested our optimized preprocessing pipeline on the **10x Visium DLPFC** dataset to improve clustering accuracy.  
