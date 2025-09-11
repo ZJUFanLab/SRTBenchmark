@@ -1,8 +1,12 @@
 # SRTBenchmark
 **Benchmarking spatial clustering methods for spatially resolved transcriptomics**
+
 <img src="./figures/Graphical Abstract.png" width="800">
+
 ·We performed a comprehensive benchmarking analysis of 14 spatial clustering methods using ~600 datasets across ten technologies and eight organs.
+
 ·We provided practical recommendations for method selection for spatially resolved transcriptomics across technologies, organs, and biological replicates, involving either cell type clustering or spatial domain identification.
+
 ·We systematically assessed the influence of data characteristics and spatial patterns on clustering accuracy and offered the optimal preprocessing pipeline covering normalization, log transformation, gene selection, standardization, and dimension reduction steps for spatial clustering methods.
 
 ## Datasets and Methods
@@ -10,41 +14,70 @@ Please refer to **[Table1](./Table1_Dataset.xlsx)** for dataset details and the 
 
 ## Overall Performance
 We conducted a comprehensive benchmark of **14 spatial clustering methods** across multiple **technologies, organs, and biological replicates**, and provided **method recommendations** tailored to different application scenarios.
+
 | Technology     | Organ          | Replicates | Recommendation (top 5)                        |
-| High Resolution| Brain	        | No	       | BASS, stLearn, Banksy, SpaGCN, STAGATE        |
-| Low Resolution | Brain	        | No	       | STAGATE, GraphST, SEDR, BASS, BayesSpace      |
-| 10× Visium	   | High continuity| No	       | STAGATE, DeepST, SEDR, CCST, GraphST          |
-| 10× Visium     | Low continuity | No	       | PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace |
-| 10× Visium	   | Brain	        | Yes	       | DeepST, Banksy, SEDR, GraphST, STAGATE        |
-| MERFISH	       | Brain	        | Yes        | BASS, stLearn, SpaGCN, PRECAST, Banksy        |
+|----------------|----------------|------------|-----------------------------------------------|
+| High Resolution| Brain 	        | No	        | BASS, stLearn, Banksy, SpaGCN, STAGATE        |
+| Low Resolution | Brain	         | No	        | STAGATE, GraphST, SEDR, BASS, BayesSpace      |
+| 10× Visium	    | High continuity| No	        | STAGATE, DeepST, SEDR, CCST, GraphST          |
+| 10× Visium     | Low continuity | No	        | PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace |
+| 10× Visium	    | Brain	         | Yes	       | DeepST, Banksy, SEDR, GraphST, STAGATE        |
+| MERFISH	       | Brain	         | Yes        | BASS, stLearn, SpaGCN, PRECAST, Banksy        |
 
 · 10× Visium
+
   **Brain**：STAGATE, GraphST, SEDR<sup>#</sup>, Banksy<sup>#</sup>, DeepST<sup>#</sup>
+  
   **Breast**：stLearn, PRECAST, BayesSpace, SpaGCN, STAGATE
+  
   **Heart**：stLearn, BASS, PRECAST, GraphST, STAGATE
+  
   **Intestine**：CCST, DeepST, CellCharter, stLearn, STAGATE
+  
   **Liver**：STAGATE, PRECAST, stLearn, SpatialMGCN, DeepST
+  
   **Lung**：PRECAST, stLearn, GraphST, STAGATE, BayesSpace
+  
 · ST
+
   **Brain**：BASS, BayesSpace, PRECAST, CCST, stLearn
+  
 · Slide-seq
+
   **Brain**：STAGATE, SpaGCN, BASS, CCST, SpaceFlow
+  
 · Stereo-seq
+
   **Brain**：BASS, SpaGCN, stLearn, STAGATE, SpatialMGCN
+  
 · seqFISH+
+
   **Brain**：PRECAST, BASS, stLearn, CellCharter, SpaGCN
+  
 · STARmap
+
   **Brain**：BASS, stLearn, Banksy, PRECAST, CellCharter
+  
 · MERFISH
+
   **Brain**：BASS<sup>#</sup>, stLearn<sup>#</sup>, SpatialMGCN, PRECAST, Banksy, SpaGCn<sup>#</sup>
+  
 · CosMx
+
   **Brain**：BASS, Banksy, SEDR, DeepST, CellCharter
+  
   **Lung**：Banksy, BASS, stLearn, DeepST, SpatialMGCN
+  
 · Xenium
+
   **Brain**：GraphST, SpaceFlow, BASS, STAGATE, Banksy
+  
   **Breast**：Banksy, stLearn, BASS, SpatialMGCN, SEDR
+  
 · Visium HD
+
   **Intestine**：stLearn, Banksy, SEDR, SpaGCN, SpatialMGCN 
+  
 
 ## Optimal Preprocessing Pipelines
 We tested our optimized preprocessing pipeline on the **10x Visium DLPFC** dataset to improve clustering accuracy.  
