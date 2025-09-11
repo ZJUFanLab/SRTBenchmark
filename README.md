@@ -1,7 +1,7 @@
 # SRTBenchmark
 **Benchmarking spatial clustering methods for spatially resolved transcriptomics**
 
-<img src="./figures/Graphical Abstract.png" width="800">
+<img src="./figures/Graphical Abstract.png">
 
 · We performed a comprehensive benchmarking analysis of 14 spatial clustering methods using ~600 datasets across ten technologies and eight organs.
 
@@ -25,79 +25,68 @@ We conducted a comprehensive benchmark of **14 spatial clustering methods** acro
 | MERFISH	       | Brain	         | Yes        | BASS, stLearn, SpaGCN, PRECAST, Banksy        |
 
 **· 10× Visium**
-
-<p style="margin-left:2em">
  
-  **Brain**：STAGATE, GraphST, SEDR<sup>#</sup>, Banksy<sup>#</sup>, DeepST<sup>#</sup>
-  
-  **Breast**：stLearn, PRECAST, BayesSpace, SpaGCN, STAGATE
-  
-  **Heart**：stLearn, BASS, PRECAST, GraphST, STAGATE
-  
-  **Intestine**：CCST, DeepST, CellCharter, stLearn, STAGATE
-  
-  **Liver**：STAGATE, PRECAST, stLearn, SpatialMGCN, DeepST
-  
-  **Lung**：PRECAST, stLearn, GraphST, STAGATE, BayesSpace
-  
-</p>
-  
-**· ST**
-<p style="margin-left:2em">
+- **Brain**：STAGATE, GraphST, SEDR<sup>#</sup>, Banksy<sup>#</sup>, DeepST<sup>#</sup>
 
-  **Brain**：BASS, BayesSpace, PRECAST, CCST, stLearn
-</p>
+- **Breast**：stLearn, PRECAST, BayesSpace, SpaGCN, STAGATE
+  
+- **Heart**：stLearn, BASS, PRECAST, GraphST, STAGATE
+  
+- **Intestine**：CCST, DeepST, CellCharter, stLearn, STAGATE
+  
+- **Liver**：STAGATE, PRECAST, stLearn, SpatialMGCN, DeepST
+  
+- **Lung**：PRECAST, stLearn, GraphST, STAGATE, BayesSpace
+
+**· ST**
+
+- **Brain**：BASS, BayesSpace, PRECAST, CCST, stLearn
+
+- Breast：PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace
+  
+- Heart：PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace
+  
+- Intestine：STAGATE, DeepST, SEDR, CCST, GraphST
+  
+- Liver：PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace
+  
+- Lung：PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace
 
 **· Slide-seq**
-<p style="margin-left:2em">
 
-  **Brain**：STAGATE, SpaGCN, BASS, CCST, SpaceFlow
-</p>
+- **Brain**：STAGATE, SpaGCN, BASS, CCST, SpaceFlow
 
 **· Stereo-seq**
-<p style="margin-left:2em">
 
-  **Brain**：BASS, SpaGCN, stLearn, STAGATE, SpatialMGCN
-</p>
+- **Brain**：BASS, SpaGCN, stLearn, STAGATE, SpatialMGCN
 
 **· seqFISH+**
-<p style="margin-left:2em">
 
-  **Brain**：PRECAST, BASS, stLearn, CellCharter, SpaGCN
-</p>
+- **Brain**：PRECAST, BASS, stLearn, CellCharter, SpaGCN
 
 **· STARmap**
-<p style="margin-left:2em">
 
-  **Brain**：BASS, stLearn, Banksy, PRECAST, CellCharter
-</p>
+- **Brain**：BASS, stLearn, Banksy, PRECAST, CellCharter
 
 **· MERFISH**
-<p style="margin-left:2em">
 
-  **Brain**：BASS<sup>#</sup>, stLearn<sup>#</sup>, SpatialMGCN, PRECAST, Banksy, SpaGCn<sup>#</sup>
-</p>
+- **Brain**：BASS<sup>#</sup>, stLearn<sup>#</sup>, SpatialMGCN, PRECAST, Banksy, SpaGCn<sup>#</sup>
 
 **· CosMx**
-<p style="margin-left:2em">
 
-  **Brain**：BASS, Banksy, SEDR, DeepST, CellCharter
+- **Brain**：BASS, Banksy, SEDR, DeepST, CellCharter
   
-  **Lung**：Banksy, BASS, stLearn, DeepST, SpatialMGCN
-</p>
+- **Lung**：Banksy, BASS, stLearn, DeepST, SpatialMGCN
 
 **· Xenium**
-<p style="margin-left:2em">
 
-  **Brain**：GraphST, SpaceFlow, BASS, STAGATE, Banksy
+- **Brain**：GraphST, SpaceFlow, BASS, STAGATE, Banksy
   
-  **Breast**：Banksy, stLearn, BASS, SpatialMGCN, SEDR
-</p>
+- **Breast**：Banksy, stLearn, BASS, SpatialMGCN, SEDR
 
 **· Visium HD**
-<p style="margin-left:2em">
 
-  **Intestine**：stLearn, Banksy, SEDR, SpaGCN, SpatialMGCN 
+- **Intestine**：stLearn, Banksy, SEDR, SpaGCN, SpatialMGCN 
   
 
 ## Optimal Preprocessing Pipelines
