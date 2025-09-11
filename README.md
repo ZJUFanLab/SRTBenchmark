@@ -24,8 +24,10 @@ We conducted a comprehensive benchmark of **14 spatial clustering methods** acro
 | 10× Visium	    | Brain	         | Yes	       | DeepST, Banksy, SEDR, GraphST, STAGATE        |
 | MERFISH	       | Brain	         | Yes        | BASS, stLearn, SpaGCN, PRECAST, Banksy        |
 
-· 10× Visium
+**· 10× Visium**
 
+<p style="margin-left:2em">
+ 
   **Brain**：STAGATE, GraphST, SEDR<sup>#</sup>, Banksy<sup>#</sup>, DeepST<sup>#</sup>
   
   **Breast**：stLearn, PRECAST, BayesSpace, SpaGCN, STAGATE
@@ -38,43 +40,62 @@ We conducted a comprehensive benchmark of **14 spatial clustering methods** acro
   
   **Lung**：PRECAST, stLearn, GraphST, STAGATE, BayesSpace
   
-· ST
+</p>
+  
+**· ST**
+<p style="margin-left:2em">
 
   **Brain**：BASS, BayesSpace, PRECAST, CCST, stLearn
-  
-· Slide-seq
+</p>
+
+**· Slide-seq**
+<p style="margin-left:2em">
 
   **Brain**：STAGATE, SpaGCN, BASS, CCST, SpaceFlow
-  
-· Stereo-seq
+</p>
+
+**· Stereo-seq**
+<p style="margin-left:2em">
 
   **Brain**：BASS, SpaGCN, stLearn, STAGATE, SpatialMGCN
-  
-· seqFISH+
+</p>
+
+**· seqFISH+**
+<p style="margin-left:2em">
 
   **Brain**：PRECAST, BASS, stLearn, CellCharter, SpaGCN
-  
-· STARmap
+</p>
+
+**· STARmap**
+<p style="margin-left:2em">
 
   **Brain**：BASS, stLearn, Banksy, PRECAST, CellCharter
-  
-· MERFISH
+</p>
+
+**· MERFISH**
+<p style="margin-left:2em">
 
   **Brain**：BASS<sup>#</sup>, stLearn<sup>#</sup>, SpatialMGCN, PRECAST, Banksy, SpaGCn<sup>#</sup>
-  
-· CosMx
+</p>
+
+**· CosMx**
+<p style="margin-left:2em">
 
   **Brain**：BASS, Banksy, SEDR, DeepST, CellCharter
   
   **Lung**：Banksy, BASS, stLearn, DeepST, SpatialMGCN
-  
-· Xenium
+</p>
+
+**· Xenium**
+<p style="margin-left:2em">
 
   **Brain**：GraphST, SpaceFlow, BASS, STAGATE, Banksy
   
   **Breast**：Banksy, stLearn, BASS, SpatialMGCN, SEDR
-  
-· Visium HD
+</p>
+
+**· Visium HD**
+<p style="margin-left:2em">
 
   **Intestine**：stLearn, Banksy, SEDR, SpaGCN, SpatialMGCN 
   
