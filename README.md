@@ -190,7 +190,7 @@ To facilitate use of this optimized pipeline, we also provide versions of the me
 
 | Method        | Normalization | Log Transformation | Genes Selection | Standardization | Dimension Reduction |
 |---------------|---------------|-----------------|----------------|----------------|------------------|
-| **[BASS (Optimal)]((./Methods/optimal preprocessing pipeline/BASS_Sample_Optimal.R))**              | Yes           | Yes             | 3000 SVGs      | No             | 20 PCs           |
+| [**BASS (Optimal)**]((./Methods/optimal preprocessing pipeline/BASS_Sample_Optimal.R))              | Yes           | Yes             | 3000 SVGs      | No             | 20 PCs           |
 | [Banksy](./Methods/Banksy_Sample.py)                                                                | Yes           | No              | 2000 HVGs      | No            | 20 PCs           |
 | **[Banksy (Optimal)](./Methods/optimal preprocessing pipeline/Banksy_Sample_Optimal.py)**           | Yes           | Yes<sup>#</sup> | 3000 SVGs<sup>#</sup>| Yes<sup>#</sup>            | 15 PCs           |
 | [BayesSpace](./Methods/BayesSpace_Sample.R)                                                         | Yes           | Yes             | 2000 HVGs      | No             | 15 PCs           |
