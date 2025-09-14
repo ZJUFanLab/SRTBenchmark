@@ -3,110 +3,217 @@
 
 <img src="./figures/Graphical Abstract.png">
 
-· We performed a comprehensive benchmarking analysis of 14 spatial clustering methods using ~600 datasets across ten technologies and eight organs.
+- We performed a comprehensive benchmarking analysis of 14 spatial clustering methods using ~600 datasets across ten technologies and eight organs.
 
-· We provided practical recommendations for method selection for spatially resolved transcriptomics across technologies, organs, and biological replicates, involving either cell type clustering or spatial domain identification.
+- We provided practical recommendations for method selection for spatially resolved transcriptomics across technologies, organs, and biological replicates, involving either cell type clustering or spatial domain identification.
 
-· We systematically assessed the influence of data characteristics and spatial patterns on clustering accuracy and offered the optimal preprocessing pipeline covering normalization, log transformation, gene selection, standardization, and dimension reduction steps for spatial clustering methods.
+- We systematically assessed the influence of data characteristics and spatial patterns on clustering accuracy and offered the optimal preprocessing pipeline covering normalization, log transformation, gene selection, standardization, and dimension reduction steps for spatial clustering methods.
 
 ## Datasets and Methods
 Please refer to **[Table1](./Table1_Dataset.xlsx)** for dataset details and the **[Methods](./Methods)** folder for example code of each clustering method.
 
-## Overall Performance
-We conducted a comprehensive benchmark of **14 spatial clustering methods** across multiple **technologies, organs, and biological replicates**, and provided **method recommendations** tailored to different application scenarios.
+## Method Recommendations
+We conducted a comprehensive benchmark of **14 spatial clustering methods** across multiple **technologies, organs, and biological replicates**, and provided **method recommendations** tailored to different application scenarios. We provide a comprehensive summary of benchmarking results based on resolution, spatial continuity, and biological replicates.
 
-| Technology     | Organ          | Replicates | Recommendation (top 5)                        |
-|----------------|----------------|------------|-----------------------------------------------|
-| High Resolution| Brain 	        | No	        | BASS, stLearn, Banksy, SpaGCN, STAGATE        |
-| Low Resolution | Brain	         | No	        | STAGATE, GraphST, SEDR, BASS, BayesSpace      |
-| 10× Visium	    | High continuity| No	        | STAGATE, DeepST, SEDR, CCST, GraphST          |
-| 10× Visium     | Low continuity | No	        | PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace |
-| 10× Visium	    | Brain	         | Yes	       | DeepST, Banksy, SEDR, GraphST, STAGATE        |
-| MERFISH	       | Brain	         | Yes        | BASS, stLearn, SpaGCN, PRECAST, Banksy        |
+| Technology     | Organ                             | Replicates | Recommendation (top 5)                        |
+|----------------|-----------------------------------|------------|-----------------------------------------------|
+| High Resolution| Brain 	                           | No	        | BASS, stLearn, Banksy, SpaGCN, STAGATE        |
+| Low Resolution | Brain	                            | No	        | STAGATE, GraphST, SEDR, BASS, BayesSpace      |
+| 10× Visium	    | High continuity (Brain、Intestine)| No	        | STAGATE, DeepST, SEDR, CCST, GraphST          |
+| 10× Visium     | Low continuity  (Liver、Lung)     | No	        | PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace |
+| 10× Visium	    | Brain	                            | Yes	       | DeepST, Banksy, SEDR, GraphST, STAGATE        |
+| MERFISH	       | Brain	                            | Yes        | BASS, stLearn, SpaGCN, PRECAST, Banksy        |
+
+For each technology and organ, we recommend methods that showed the most consistent performance.
+
+1.Real datasets are highlighted in bold.
+
+2.Datasets with biological replicates are marked with <sup>#</sup>.
+
+3.For application not explicitly covered, recommendations are extended from the summarized benchmarking insights.
 
 ### **10× Visium**
  
 - **Brain**：STAGATE, GraphST, SEDR<sup>#</sup>, Banksy<sup>#</sup>, DeepST<sup>#</sup>
 
-- **Breast**：stLearn, PRECAST, BayesSpace, SpaGCN, STAGATE
+- **Breast**：stLearn, PRECAST, BayesSpace
   
-- **Heart**：stLearn, BASS, PRECAST, GraphST, STAGATE
+- **Heart**：stLearn, BASS, PRECAST
   
-- **Intestine**：CCST, DeepST, CellCharter, stLearn, STAGATE
+- **Intestine**：CCST, DeepST, CellCharter
+
+- **Kidney**：PRECAST, BayesSpace, SpaGCN
   
-- **Liver**：STAGATE, PRECAST, stLearn, SpatialMGCN, DeepST
+- **Liver**：STAGATE, PRECAST, stLearn
   
-- **Lung**：PRECAST, stLearn, GraphST, STAGATE, BayesSpace
+- **Lung**：PRECAST, stLearn, GraphST
+- 
+- **Skin**：BayesSpace, STAGATE, BASS
 
 ### **ST**
 
-- **Brain**：BASS, BayesSpace, PRECAST, CCST, stLearn
+- **Brain**：BASS, BayesSpace, PRECAST
 
-- Breast：PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace
+- Breast：PRECAST, stLearn, STAGATE
   
-- Heart：PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace
+- Heart：PRECAST, stLearn, STAGATE
   
-- Intestine：STAGATE, DeepST, SEDR, CCST, GraphST
+- Intestine：BASS, BayesSpace, PRECAST
+
+- Kidney：PRECAST, stLearn, STAGATE
   
-- Liver：PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace
+- Liver：PRECAST, stLearn, STAGATE
   
-- Lung：PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace
+- Lung：PRECAST, stLearn, STAGATE
+
+- Skin：PRECAST, stLearn, STAGATE
 
 ### **Slide-seq**
 
-- **Brain**：STAGATE, SpaGCN, BASS, CCST, SpaceFlow
+- **Brain**：STAGATE, SpaGCN, BASS
+
+- Breast：BASS, stLearn, Banksy
+  
+- Heart：BASS, stLearn, Banksy
+  
+- **Kidney**：BASS, stLearn, Banksy
+  
+- Liver：BASS, stLearn, Banksy
+  
+- **Lung**：BASS, stLearn, Banksy
 
 ### **Stereo-seq**
 
-- **Brain**：BASS, SpaGCN, stLearn, STAGATE, SpatialMGCN
+- **Brain**：BASS, SpaGCN, stLearn
+
+- Breast：BASS, stLearn, Banksy
+  
+- Heart：BASS, stLearn, Banksy
+  
+- Kidney：BASS, stLearn, Banksy
+  
+- Liver：BASS, stLearn, Banksy
+  
+- Lung：BASS, stLearn, Banksy
 
 ### **seqFISH+**
 
-- **Brain**：PRECAST, BASS, stLearn, CellCharter, SpaGCN
+- **Brain**：PRECAST, BASS, stLearn
+  
+- Breast：PRECAST, BASS, stLearn
+  
+- Heart：PRECAST, BASS, stLearn
+  
+- Kidney：PRECAST, BASS, stLearn
+  
+- Liver：PRECAST, BASS, stLearn
+  
+- Lung：PRECAST, BASS, stLearn
 
 ### **STARmap**
 
-- **Brain**：BASS, stLearn, Banksy, PRECAST, CellCharter
+- **Brain**：BASS, stLearn, Banksy
+ 
+- Breast：BASS, stLearn, Banksy
+  
+- Heart：BASS, stLearn, Banksy
+  
+- Kidney：BASS, stLearn, Banksy
+  
+- Liver：BASS, stLearn, Banksy
+  
+- Lung：BASS, stLearn, Banksy
 
 ### **MERFISH**
 
-- **Brain**：BASS<sup>#</sup>, stLearn<sup>#</sup>, SpatialMGCN, PRECAST, Banksy, SpaGCn<sup>#</sup>
+- **Brain**：BASS<sup>#</sup>, stLearn<sup>#</sup>, SpatialMGCN, PRECAST, Banksy, SpaGCN<sup>#</sup>
+
+- Breast：BASS, stLearn, SpaGCN
+  
+- Heart：BASS, stLearn, SpaGCN
+  
+- Intestine：BASS, stLearn, SpaGCN
+  
+- Liver：BASS, stLearn, SpaGCN
+  
+- Lung：BASS, stLearn, SpaGCN
 
 ### **CosMx**
 
-- **Brain**：BASS, Banksy, SEDR, DeepST, CellCharter
+- **Brain**：BASS, Banksy, SEDR
+
+- Breast：Banksy, BASS, stLearn
   
-- **Lung**：Banksy, BASS, stLearn, DeepST, SpatialMGCN
+- Heart：Banksy, BASS, stLearn
+  
+- Intestine：BASS, Banksy, SEDR
+  
+- Liver：Banksy, BASS, stLearn
+  
+- **Lung**：Banksy, BASS, stLearn
 
 ### **Xenium**
 
-- **Brain**：GraphST, SpaceFlow, BASS, STAGATE, Banksy
+- **Brain**：GraphST, SpaceFlow, BASS
   
-- **Breast**：Banksy, stLearn, BASS, SpatialMGCN, SEDR
+- **Breast**：Banksy, stLearn, BASS
+  
+- Heart：Banksy, stLearn, BASS
+  
+- Intestine：GraphST, SpaceFlow, BASS
+  
+- Liver：Banksy, stLearn, BASS
+  
+- Lung：Banksy, stLearn, BASS
 
 ### **Visium HD**
 
-- **Intestine**：stLearn, Banksy, SEDR, SpaGCN, SpatialMGCN 
+- **Brain**：stLearn, SpaGCN, PRECAST
+
+- Breast：stLearn, SpaGCN, Banksy
+  
+- Heart：stLearn, SpaGCN, Banksy
+  
+- **Intestine**：stLearn, Banksy, SEDR
+  
+- Liver：stLearn, SpaGCN, Banksy
+  
+- Lung：stLearn, SpaGCN, Banksy
   
 
 ## Optimal Preprocessing Pipelines
-We tested our optimized preprocessing pipeline on the **10x Visium DLPFC** dataset to improve clustering accuracy.  
+We tested our optimized preprocessing pipeline on the **10x Visium DLPFC** dataset to improve clustering accuracy.
+
+We show default pipelines and **optimized pipelines (marked in bold)**, where parameters with notable changes are marked with <sup>#</sup>.
+
 To facilitate use of this optimized pipeline, we also provide versions of the methods using the optimized pipelines in the **Methods** folder.
 
 | Method        | Normalization | Log Transformation | Genes Selection | Standardization | Dimension Reduction |
 |---------------|---------------|-----------------|----------------|----------------|------------------|
-| BASS          | Yes           | Yes             | 3000 SVGs      | No             | 20 PCs           |
-| Banksy        | Yes           | Yes             | 3000 SVGs      | Yes            | 15 PCs           |
-| BayesSpace    | Yes           | Yes             | 5000 HVGs      | No             | 20 PCs           |
-| CCST          | Yes           | No              | 2000 HVGs      | Yes            | 50 PCs           |
-| CellCharter   | Yes           | No              | 2000 HVGs      | No             | No               |
-| DeepST        | Yes           | Yes             | 3000 SVGs      | Yes            | 50 PCs           |
-| GraphST       | Yes           | Yes             | 2000 HVGs      | No             | No               |
-| PRECAST       | Yes           | No              | 5000 HVGs      | No             | 20 PCs           |
-| SEDR          | Yes           | No              | 3000 SVGs      | Yes            | 50 PCs           |
-| STAGATE       | Yes           | Yes             | 3000 HVGs      | No             | No               |
-| SpaGCN        | Yes           | Yes             | All Genes      | Yes            | No               |
-| SpaceFlow     | Yes           | No              | 3000 SVGs      | Yes            | No               |
-| SpatialMGCN   | Yes           | No              | 3000 SVGs      | No             | No               |
-| stLearn       | Yes           | No              | 3000 SVGs      | No             | 20 PCs           |
+| **[BASS (Optimal)]((./Methods/optimal preprocessing pipeline/BASS_Sample_Optimal.R))**              | Yes           | Yes             | 3000 SVGs      | No             | 20 PCs           |
+| [Banksy](./Methods/Banksy_Sample.py)                                                                | Yes           | No              | 2000 HVGs      | No            | 20 PCs           |
+| **[Banksy (Optimal)](./Methods/optimal preprocessing pipeline/Banksy_Sample_Optimal.py)**           | Yes           | Yes<sup>#</sup> | 3000 SVGs<sup>#</sup>| Yes<sup>#</sup>            | 15 PCs           |
+| [BayesSpace](./Methods/BayesSpace_Sample.R)                                                         | Yes           | Yes             | 2000 HVGs      | No             | 15 PCs           |
+| **[BayesSpace (Optimal)](./Methods/optimal preprocessing pipeline/BayesSpace_Sample_Optimal.R)**    | Yes           | Yes             | 5000 HVGs<sup>#</sup>      | No             | 20 PCs<sup>#</sup>      |
+| [CCST](./Methods/CCST_Sample.py)                                                                    | Yes           | No              | All Genes      | Yes            | 200 PCs           |
+| **[CCST (Optimal)](./Methods/optimal preprocessing pipeline/CCST_Sample_Optimal.py)**               | Yes           | No              | 2000 HVGs<sup>#</sup>       | Yes            | 50 PCs<sup>#</sup>     |
+| [CellCharter](./Methods/CellCharter_Sample.py)                                                      | Yes           | Yes             | 5000 HVGs      | No             | No               |
+| **[CellCharter (Optimal)](./Methods/optimal preprocessing pipeline/CellCharter_Sample_Optimal.py)** | Yes           | No<sup>#</sup>  | 2000 HVGs<sup>#</sup>       | No             | No               |
+| [DeepST](./Methods/DeepST_Sample.py)                                                                | Yes           | Yes             | All Genes      | Yes            | 200 PCs           |
+| **[DeepST (Optimal)](./Methods/optimal preprocessing pipeline/DeepST_Sample_Optimal.py)**           | Yes           | Yes             | 3000 SVGs<sup>#</sup>       | Yes            | 50 PCs<sup>#</sup>      |
+| [GraphST](./Methods/GraphST_Sample.py)                                                              | Yes           | Yes             | 3000 HVGs      | Yes             | No               |
+| **[GraphST (Optimal)](./Methods/optimal preprocessing pipeline/GraphST_Sample_Optimal.py)**         | Yes           | Yes             | 2000 HVGs<sup>#</sup>       | No<sup>#</sup>        | No               |
+| [PRECAST](./Methods/PRECAST_Sample.R)                                                               | Yes           | No              | 2000 HVGs      | No             | 15 PCs           |
+| **[PRECAST (Optimal)](./Methods/optimal preprocessing pipeline/PRECAST_Sample_Optimal.R)**          | Yes           | No              | 5000 HVGs<sup>#</sup>       | No             | 20 PCs<sup>#</sup>     |
+| [SEDR](./Methods/SEDR_Sample.py)                                                                    | Yes           | No              | 2000 HVGs      | Yes            | 200 PCs           |
+| **[SEDR (Optimal)](./Methods/optimal preprocessing pipeline/SEDR_Sample_Optimal.py)**               | Yes           | No              | 3000 SVGs <sup>#</sup>      | Yes            | 50 PCs<sup>#</sup>     |
+| **[STAGATE (Optimal)](./Methods/optimal preprocessing pipeline/STAGATE_Sample_Optimal.py)**         | Yes           | Yes             | 3000 HVGs      | No             | No               |
+| [SpaGCN](./Methods/SpaGCN_Sample.py)                                                                | Yes           | Yes             | All Genes      | No            | No               |
+| **[SpaGCN (Optimal)](./Methods/optimal preprocessing pipeline/SpaGCN_Sample_Optimal.py)**           | Yes           | Yes             | All Genes      | Yes<sup>#</sup>             | No               |
+| [SpaceFlow](./Methods/SpaceFlow_Sample.py)                                                          | Yes           | Yes              | 3000 HVGs      | No            | No               |
+| **[SpaceFlow (Optimal)](./Methods/optimal preprocessing pipeline/SpaceFlow_Sample_Optimal.py)**     | Yes           | No  <sup>#</sup>  | 3000 SVGs <sup>#</sup> | Yes  <sup>#</sup> | No               |
+| [SpatialMGCN](./Methods/SpatialMGCN_Sample.py)                                                      | Yes           | No              | 3000 HVGs      | Yes             | No               |
+| **[SpatialMGCN (Optimal)](./Methods/optimal preprocessing pipeline/SpatialMGCN_Sample_Optimal.py)** | Yes           | No              | 3000 SVGs <sup>#</sup>      | No  <sup>#</sup>            | No          |
+| [stLearn](./Methods/stLearn_Sample.py)                                                              | Yes           | Yes              | All Genes   | No             | 50 PCs           |
+| **[stLearn (Optimal)](./Methods/optimal preprocessing pipeline/stLearn_Sample_Optimal.py)**         | Yes           | No <sup>#</sup>     | 3000 SVGs  <sup>#</sup>     | No             | 20 PCs  <sup>#</sup>          |
 
