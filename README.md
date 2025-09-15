@@ -17,12 +17,12 @@ We conducted a comprehensive benchmark of **14 spatial clustering methods** acro
 
 | Technology     | Organ                             | Replicates | Recommendation (top 5)                        |
 |----------------|-----------------------------------|------------|-----------------------------------------------|
-| High Resolution| Brain 	                           | No	        | BASS, stLearn, Banksy, SpaGCN, STAGATE        |
-| Low Resolution | Brain	                            | No	        | STAGATE, GraphST, SEDR, BASS, BayesSpace      |
-| 10× Visium	    | High continuity (Brain、Intestine)| No	        | STAGATE, DeepST, SEDR, CCST, GraphST          |
-| 10× Visium     | Low continuity  (Liver、Lung)     | No	        | PRECAST, stLearn, STAGATE, SpaGCN, BayesSpace |
-| 10× Visium	    | Brain	                            | Yes	       | DeepST, Banksy, SEDR, GraphST, STAGATE        |
-| MERFISH	       | Brain	                            | Yes        | BASS, stLearn, SpaGCN, PRECAST, Banksy        |
+| High Resolution| Brain 	                           | No	        | [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)|
+| Low Resolution | Brain	                            | No	        | [STAGATE](./Methods/STAGATE_Sample.py), [GraphST](./Methods/GraphST_Sample.py), [SEDR](./Methods/SEDR_Sample.py), [BASS](./Methods/BASS_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R)|
+| 10× Visium	    | High continuity (Brain、Intestine)| No	        | [STAGATE](./Methods/STAGATE_Sample.py), [DeepST](./Methods/DeepST_Sample.py), [SEDR](./Methods/SEDR_Sample.py), [CCST](./Methods/CCST_Sample.py), [GraphST](./Methods/GraphST_Sample.py)|
+| 10× Visium     | Low continuity  (Liver、Lung)     | No	        | [PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [BayesSpace](./Methods/BayesSpace_Sample.R)|
+| 10× Visium	    | Brain	                            | Yes	       | [DeepST](./Methods/DeepST_Sample.py), [Banksy](./Methods/Banksy_Sample.py), [SEDR](./Methods/SEDR_Sample.py), [GraphST](./Methods/GraphST_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)|
+| MERFISH	       | Brain	                            | Yes        | [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [Banksy](./Methods/Banksy_Sample.py)|
 
 For each technology and organ, we recommend methods that showed the most consistent performance.
 
@@ -47,7 +47,7 @@ For each technology and organ, we recommend methods that showed the most consist
 - **Liver**：STAGATE, PRECAST, stLearn
   
 - **Lung**：PRECAST, stLearn, GraphST
-- 
+
 - **Skin**：BayesSpace, STAGATE, BASS
 
 ### **ST**
