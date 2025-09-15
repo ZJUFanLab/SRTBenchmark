@@ -181,7 +181,7 @@ For each technology and organ, we recommend methods that showed the most consist
 - Lung：stLearn, SpaGCN, Banksy
   
 
-## Optimal Preprocessing Pipelines
+## Optimized Preprocessing Pipelines
 We tested our optimized preprocessing pipeline on the **10x Visium DLPFC** dataset to improve clustering accuracy.
 
 We show default pipelines and **optimized pipelines (marked in bold)**, where parameters with notable changes are marked with <sup>#</sup>.
@@ -190,30 +190,31 @@ To facilitate use of this optimized pipeline, we also provide versions of the me
 
 | Method        | Normalization | Log Transformation | Genes Selection | Standardization | Dimension Reduction |
 |---------------|---------------|-----------------|----------------|----------------|------------------|
-| **[BASS]((./Methods/optimal preprocessing pipeline/BASS_Sample_Optimal.R))**              | Yes           | Yes             | 3000 SVGs      | No             | 20 PCs           |
+| **[BASS](./Methods/Optimized_preprocessing_pipeline/BASS_Sample_Optimized.R)**              | Yes           | Yes             | 3000 SVGs      | No             | 20 PCs           |
 | [Banksy](./Methods/Banksy_Sample.py)                                                                | Yes           | No              | 2000 HVGs      | No            | 20 PCs           |
-| **[Banksy](./Methods/optimal preprocessing pipeline/Banksy_Sample_Optimal.py)**           | Yes           | Yes<sup>#</sup> | 3000 SVGs<sup>#</sup>| Yes<sup>#</sup>            | 15 PCs           |
+| **[Banksy (optimized)](./Methods/Optimized_preprocessing_pipeline/Banksy_Sample_Optimized.py)**           | Yes           | Yes<sup>#</sup> | 3000 SVGs<sup>#</sup>| Yes<sup>#</sup>            | 15 PCs           |
 | [BayesSpace](./Methods/BayesSpace_Sample.R)                                                         | Yes           | Yes             | 2000 HVGs      | No             | 15 PCs           |
-| **[BayesSpace](./Methods/optimal preprocessing pipeline/BayesSpace_Sample_Optimal.R)**    | Yes           | Yes             | 5000 HVGs<sup>#</sup>      | No             | 20 PCs<sup>#</sup>      |
+| **[BayesSpace(optimized)](./Methods/Optimized_preprocessing_pipeline/BayesSpace_Sample_Optimized.R)**    | Yes           | Yes             | 5000 HVGs<sup>#</sup>      | No             | 20 PCs<sup>#</sup>      |
 | [CCST](./Methods/CCST_Sample.py)                                                                    | Yes           | No              | All Genes      | Yes            | 200 PCs           |
-| **[CCST](./Methods/optimal preprocessing pipeline/CCST_Sample_Optimal.py)**               | Yes           | No              | 2000 HVGs<sup>#</sup>       | Yes            | 50 PCs<sup>#</sup>     |
+| **[CCST(optimized)](./Methods/Optimized_preprocessing_pipeline/CCST_Sample_Optimized.py)**               | Yes           | No              | 2000 HVGs<sup>#</sup>       | Yes            | 50 PCs<sup>#</sup>     |
 | [CellCharter](./Methods/CellCharter_Sample.py)                                                      | Yes           | Yes             | 5000 HVGs      | No             | No               |
-| **[CellCharter](./Methods/optimal preprocessing pipeline/CellCharter_Sample_Optimal.py)** | Yes           | No<sup>#</sup>  | 2000 HVGs<sup>#</sup>       | No             | No               |
+| **[CellCharter(optimized)](./Methods/Optimized_preprocessing_pipeline/CellCharter_Sample_Optimized.py)** | Yes           | No<sup>#</sup>  | 2000 HVGs<sup>#</sup>       | No             | No               |
 | [DeepST](./Methods/DeepST_Sample.py)                                                                | Yes           | Yes             | All Genes      | Yes            | 200 PCs           |
-| **[DeepST](./Methods/optimal preprocessing pipeline/DeepST_Sample_Optimal.py)**           | Yes           | Yes             | 3000 SVGs<sup>#</sup>       | Yes            | 50 PCs<sup>#</sup>      |
+| **[DeepST(optimized)](./Methods/Optimized_preprocessing_pipeline/DeepST_Sample_Optimized.py)**           | Yes           | Yes             | 3000 SVGs<sup>#</sup>       | Yes            | 50 PCs<sup>#</sup>      |
 | [GraphST](./Methods/GraphST_Sample.py)                                                              | Yes           | Yes             | 3000 HVGs      | Yes             | No               |
-| **[GraphST](./Methods/optimal preprocessing pipeline/GraphST_Sample_Optimal.py)**         | Yes           | Yes             | 2000 HVGs<sup>#</sup>       | No<sup>#</sup>        | No               |
+| **[GraphST(optimized)](./Methods/Optimized_preprocessing_pipeline/GraphST_Sample_Optimized.py)**         | Yes           | Yes             | 2000 HVGs<sup>#</sup>       | No<sup>#</sup>        | No               |
 | [PRECAST](./Methods/PRECAST_Sample.R)                                                               | Yes           | No              | 2000 HVGs      | No             | 15 PCs           |
-| **[PRECAST](./Methods/optimal preprocessing pipeline/PRECAST_Sample_Optimal.R)**          | Yes           | No              | 5000 HVGs<sup>#</sup>       | No             | 20 PCs<sup>#</sup>     |
+| **[PRECAST(optimized)](./Methods/Optimized_preprocessing_pipeline/PRECAST_Sample_Optimized.R)**          | Yes           | No              | 5000 HVGs<sup>#</sup>       | No             | 20 PCs<sup>#</sup>     |
 | [SEDR](./Methods/SEDR_Sample.py)                                                                    | Yes           | No              | 2000 HVGs      | Yes            | 200 PCs           |
-| **[SEDR](./Methods/optimal preprocessing pipeline/SEDR_Sample_Optimal.py)**               | Yes           | No              | 3000 SVGs <sup>#</sup>      | Yes            | 50 PCs<sup>#</sup>     |
-| **[STAGATE](./Methods/optimal preprocessing pipeline/STAGATE_Sample_Optimal.py)**         | Yes           | Yes             | 3000 HVGs      | No             | No               |
+| **[SEDR(optimized)](./Methods/Optimized_preprocessing_pipeline/SEDR_Sample_Optimized.py)**               | Yes           | No              | 3000 SVGs <sup>#</sup>      | Yes            | 50 PCs<sup>#</sup>     |
+| **[STAGATE](./Methods/Optimized_preprocessing_pipeline/STAGATE_Sample_Optimized.py)**         | Yes           | Yes             | 3000 HVGs      | No             | No               |
 | [SpaGCN](./Methods/SpaGCN_Sample.py)                                                                | Yes           | Yes             | All Genes      | No            | No               |
-| **[SpaGCN](./Methods/optimal preprocessing pipeline/SpaGCN_Sample_Optimal.py)**           | Yes           | Yes             | All Genes      | Yes<sup>#</sup>             | No               |
+| **[SpaGCN(optimized)](./Methods/Optimized_preprocessing_pipeline/SpaGCN_Sample_Optimized.py)**           | Yes           | Yes             | All Genes      | Yes<sup>#</sup>             | No               |
 | [SpaceFlow](./Methods/SpaceFlow_Sample.py)                                                          | Yes           | Yes              | 3000 HVGs      | No            | No               |
-| **[SpaceFlow](./Methods/optimal preprocessing pipeline/SpaceFlow_Sample_Optimal.py)**     | Yes           | No  <sup>#</sup>  | 3000 SVGs <sup>#</sup> | Yes  <sup>#</sup> | No               |
+| **[SpaceFlow(optimized)](./Methods/Optimized_preprocessing_pipeline/SpaceFlow_Sample_Optimized.py)**     | Yes           | No  <sup>#</sup>  | 3000 SVGs <sup>#</sup> | Yes  <sup>#</sup> | No               |
 | [SpatialMGCN](./Methods/SpatialMGCN_Sample.py)                                                      | Yes           | No              | 3000 HVGs      | Yes             | No               |
-| **[SpatialMGCN](./Methods/optimal preprocessing pipeline/SpatialMGCN_Sample_Optimal.py)** | Yes           | No              | 3000 SVGs <sup>#</sup>      | No  <sup>#</sup>            | No          |
+| **[SpatialMGCN(optimized)](./Methods/Optimized_preprocessing_pipeline/SpatialMGCN_Sample_Optimized.py)** | Yes           | No              | 3000 SVGs <sup>#</sup>      | No  <sup>#</sup>            | No          |
 | [stLearn](./Methods/stLearn_Sample.py)                                                              | Yes           | Yes              | All Genes   | No             | 50 PCs           |
-| **[stLearn](./Methods/optimal preprocessing pipeline/stLearn_Sample_Optimal.py)**         | Yes           | No <sup>#</sup>     | 3000 SVGs  <sup>#</sup>     | No             | 20 PCs  <sup>#</sup>          |
+| **[stLearn(optimized)](./Methods/Optimized_preprocessing_pipeline/stLearn_Sample_Optimized.py)**         | Yes           | No <sup>#</sup>     | 3000 SVGs  <sup>#</sup>     | No             | 20 PCs  <sup>#</sup>          |
 
+## About
