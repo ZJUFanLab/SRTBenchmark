@@ -36,7 +36,7 @@ For each technology and organ, we recommend methods that showed the most consist
  
 - **Brain**：[STAGATE](./Methods/STAGATE_Sample.py), [GraphST](./Methods/GraphST_Sample.py), [SEDR](./Methods/SEDR_Sample.py)<sup>#</sup>, [Banksy](./Methods/Banksy_Sample.py)<sup>#</sup>, [DeepST](./Methods/DeepST_Sample.py)<sup>#</sup>
 
-- **Breast**：[stLearn](./Methods/stLearn_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R)|
+- **Breast**：[stLearn](./Methods/stLearn_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R)
   
 - **Heart**：[stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R), [PRECAST](./Methods/PRECAST_Sample.R)
   
