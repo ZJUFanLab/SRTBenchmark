@@ -34,21 +34,21 @@ For each technology and organ, we recommend methods that showed the most consist
 
 ### **10× Visium**
  
-- **Brain**：STAGATE, GraphST, SEDR<sup>#</sup>, Banksy<sup>#</sup>, DeepST<sup>#</sup>
+- **Brain**：[STAGATE](./Methods/STAGATE_Sample.py), [GraphST](./Methods/GraphST_Sample.py), [SEDR](./Methods/SEDR_Sample.py)<sup>#</sup>, [Banksy](./Methods/Banksy_Sample.py)<sup>#</sup>, [DeepST](./Methods/DeepST_Sample.py)<sup>#</sup>
 
-- **Breast**：stLearn, PRECAST, BayesSpace
+- **Breast**：[stLearn](./Methods/stLearn_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R)|
   
-- **Heart**：stLearn, BASS, PRECAST
+- **Heart**：[stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R), [PRECAST](./Methods/PRECAST_Sample.R)
   
-- **Intestine**：CCST, DeepST, CellCharter
+- **Intestine**：[CCST](./Methods/CCST_Sample.py), [DeepST](./Methods/DeepST_Sample.py), [CellCharter](./Methods/CellCharter_Sample.py)
 
-- **Kidney**：PRECAST, BayesSpace, SpaGCN
+- **Kidney**：[PRECAST](./Methods/PRECAST_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R)|, [SpaGCN](./Methods/SpaGCN_Sample.py)
   
-- **Liver**：STAGATE, PRECAST, stLearn
+- **Liver**：[STAGATE](./Methods/STAGATE_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
   
-- **Lung**：PRECAST, stLearn, GraphST
+- **Lung**：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [GraphST](./Methods/GraphST_Sample.py)
 
-- **Skin**：BayesSpace, STAGATE, BASS
+- **Skin**：[BayesSpace](./Methods/BayesSpace_Sample.R)|, [STAGATE](./Methods/STAGATE_Sample.py), [BASS](./Methods/BASS_Sample.R)
 
 ### **ST**
 
