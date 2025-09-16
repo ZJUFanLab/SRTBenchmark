@@ -28,7 +28,7 @@ For each technology and organ, we recommend methods that showed the most consist
 
 1.Real datasets are highlighted in `bold`.
 
-2.Datasets with biological replicates are marked with `<sup>#</sup>`.
+2.Datasets with biological replicates are marked with <sup>`#`</sup>.
 
 3.For application not explicitly covered, recommendations are extended from the summarized benchmarking insights.
 
