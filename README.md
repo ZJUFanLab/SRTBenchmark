@@ -184,9 +184,9 @@ For each technology and organ, we recommend methods that showed the most consist
 ## Optimized Preprocessing Pipelines
 We tested our optimized preprocessing pipeline on the **10x Visium DLPFC** dataset to improve clustering accuracy.
 
-We show default pipelines and **optimized pipelines (marked in bold)**.
+We show default pipelines and **optimized pipelines** (marked in `bold`).
 
-Parameters that differ from the default settings are indicated with **<sup>#</sup>**, whereas parameters marked with **<sup>*</sup>** denote those for which modifications are expected to exert a substantial influence on performance.
+Parameters that differ from the default settings are indicated with <sup>`#`</sup>, whereas parameters marked with <sup>`*`</sup> denote those for which modifications are expected to exert a substantial influence on performance.
 
 To facilitate use of this optimized pipeline, we also provide versions of the methods using the optimized pipelines in the **[Methods](./Methods)** folder.
 
