@@ -10,7 +10,7 @@
 - We systematically assessed the influence of data characteristics and spatial patterns on clustering accuracy and offered the optimal preprocessing pipeline covering normalization, log transformation, gene selection, standardization, and dimension reduction steps for spatial clustering methods.
 
 ## Datasets and Methods
-Please refer to **[Table1](./Table1_Dataset.xlsx)** for dataset details and the **[Methods](./Methods)** folder for example code of each clustering method.
+Please refer to **[Dataset](./Dataset)** for dataset details and the **[Methods](./Methods)** folder for example code of each clustering method.
 
 ## Method Recommendations
 We conducted a comprehensive benchmark of **14 spatial clustering methods** across multiple **technologies, organs, and biological replicates**, and provided **method recommendations** tailored to different application scenarios. We provide a comprehensive summary of benchmarking results based on resolution, spatial continuity, and biological replicates.
@@ -26,9 +26,9 @@ We conducted a comprehensive benchmark of **14 spatial clustering methods** acro
 
 For each technology and organ, we recommend methods that showed the most consistent performance.
 
-1.Real datasets are highlighted in bold.
+1.Real datasets are highlighted in `bold`.
 
-2.Datasets with biological replicates are marked with <sup>#</sup>.
+2.Datasets with biological replicates are marked with `<sup>#</sup>`.
 
 3.For application not explicitly covered, recommendations are extended from the summarized benchmarking insights.
 
@@ -186,7 +186,7 @@ We tested our optimized preprocessing pipeline on the **10x Visium DLPFC** datas
 
 We show default pipelines and **optimized pipelines (marked in bold)**.
 
-Parameters that differ from the default settings are indicated with **<sup>#</sup>**, whereas parameters marked with *<sup>*</sup>* denote those for which modifications are expected to exert a substantial influence on performance.
+Parameters that differ from the default settings are indicated with **<sup>#</sup>**, whereas parameters marked with **<sup>*</sup>** denote those for which modifications are expected to exert a substantial influence on performance.
 
 To facilitate use of this optimized pipeline, we also provide versions of the methods using the optimized pipelines in the **[Methods](./Methods)** folder.
 
