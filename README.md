@@ -24,161 +24,193 @@ We conducted a comprehensive benchmark of **14 spatial clustering methods** acro
 | 10× Visium	    | Brain	                            | Yes	       | [DeepST](./Methods/DeepST_Sample.py), [Banksy](./Methods/Banksy_Sample.py), [SEDR](./Methods/SEDR_Sample.py), [GraphST](./Methods/GraphST_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)|
 | MERFISH	       | Brain	                            | Yes        | [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [Banksy](./Methods/Banksy_Sample.py)|
 
-For each technology and organ, we recommend methods that showed the most consistent performance.
+In detail, we provide recommendations of the most accurate methods tailored to different spatial transcriptomics technologies and organ types.
 
-1.Real datasets are highlighted in `bold`.
+1.For application scenarios where real-world datasets are available, the recommended methods are indicated in `bold`.
 
-2.Datasets with biological replicates are marked with <sup>`#`</sup>.
+2.For application scenarios that include biological replicates, the recommended methods are marked with <sup>`#`</sup>.
 
-3.For application not explicitly covered, recommendations are extended from the summarized benchmarking insights.
+3.When real datasets were not included in our analyses, recommendations are inferred from the summarized benchmarking results.
 
-### **10× Visium**
+### **10× Visium** [Low Resolution：55 μm]
  
-- **`Brain`**：[STAGATE](./Methods/STAGATE_Sample.py), [GraphST](./Methods/GraphST_Sample.py), [SEDR](./Methods/SEDR_Sample.py)<sup>#</sup>, [Banksy](./Methods/Banksy_Sample.py)<sup>#</sup>, [DeepST](./Methods/DeepST_Sample.py)<sup>#</sup>
+- **`Brain`** (High continuity)：[STAGATE](./Methods/STAGATE_Sample.py), [GraphST](./Methods/GraphST_Sample.py), [SEDR](./Methods/SEDR_Sample.py)<sup>#</sup>, [Banksy](./Methods/Banksy_Sample.py)<sup>#</sup>, [DeepST](./Methods/DeepST_Sample.py)<sup>#</sup>
 
-- **`Breast`**：[stLearn](./Methods/stLearn_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R)
+- **`Breast`** (Low continuity)：[stLearn](./Methods/stLearn_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R)
   
-- **`Heart`**：[stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R), [PRECAST](./Methods/PRECAST_Sample.R)
+- **`Heart`** (Low continuity)：[stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R), [PRECAST](./Methods/PRECAST_Sample.R)
   
-- **`Intestine`**：[CCST](./Methods/CCST_Sample.py), [DeepST](./Methods/DeepST_Sample.py), [CellCharter](./Methods/CellCharter_Sample.py)
+- **`Intestine`** (High continuity)：[CCST](./Methods/CCST_Sample.py), [DeepST](./Methods/DeepST_Sample.py), [CellCharter](./Methods/CellCharter_Sample.py)
 
-- **`Kidney`**：[PRECAST](./Methods/PRECAST_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py)
+- **`Kidney`** (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py)
   
-- **`Liver`**：[STAGATE](./Methods/STAGATE_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+- **`Liver`** (Low continuity)：[STAGATE](./Methods/STAGATE_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
   
-- **`Lung`**：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [GraphST](./Methods/GraphST_Sample.py)
+- **`Lung`** (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [GraphST](./Methods/GraphST_Sample.py)
 
-- **`Skin`**：[BayesSpace](./Methods/BayesSpace_Sample.R)|, [STAGATE](./Methods/STAGATE_Sample.py), [BASS](./Methods/BASS_Sample.R)
+- **`Skin`** (Low continuity)：[BayesSpace](./Methods/BayesSpace_Sample.R)|, [STAGATE](./Methods/STAGATE_Sample.py), [BASS](./Methods/BASS_Sample.R)
 
-### **ST**
+### **Spatial Transcriptomic (ST)** [Low Resolution：100 μm]
 
-- **`Brain`**：[BASS](./Methods/BASS_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R), [PRECAST](./Methods/PRECAST_Sample.R)
+- **`Brain`** (High continuity)：[BASS](./Methods/BASS_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R), [PRECAST](./Methods/PRECAST_Sample.R)
 
-- Breast：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
+- Breast (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
   
-- Heart：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
+- Heart (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
   
-- Intestine：[BASS](./Methods/BASS_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R), [PRECAST](./Methods/PRECAST_Sample.R)
+- Intestine (High continuity)：[BASS](./Methods/BASS_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R), [PRECAST](./Methods/PRECAST_Sample.R)
 
-- Kidney：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
+- Kidney (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
   
-- Liver：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
+- Liver (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
   
-- Lung：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
+- Lung (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
 
-- Skin：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
+- Skin (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
 
-### **Slide-seq**
+### **Slide-seq** [High Resolution：10 μm]
 
-- **`Brain`**：[STAGATE](./Methods/STAGATE_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [BASS](./Methods/BASS_Sample.R)
+- **`Brain`** (High continuity)：[STAGATE](./Methods/STAGATE_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [BASS](./Methods/BASS_Sample.R)
 
-- Breast：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Breast (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Heart：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
-  
-- **`Kidney`**：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
-  
-- Liver：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
-  
-- **`Lung`**：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Heart (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
 
-### **Stereo-seq**
+- Intestine (High continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+    
+- **`Kidney`** (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+  
+- Liver (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+  
+- **`Lung`** (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
 
-- **`Brain`**：[BASS](./Methods/BASS_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py), [stLearn](./Methods/stLearn_Sample.py)
+- Skin (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
 
-- Breast：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
-  
-- Heart：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
-  
-- Kidney：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
-  
-- Liver：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
-  
-- Lung：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+### **Spatial enhanced resolution omics-sequencing (Stereo-seq)** [High Resolution：0.22 μm]
 
-### **seqFISH+**
+- **`Brain`** (High continuity)：[BASS](./Methods/BASS_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py), [stLearn](./Methods/stLearn_Sample.py)
 
-- **`Brain`**：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+- Breast (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Breast：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
-  
-- Heart：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
-  
-- Kidney：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
-  
-- Liver：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
-  
-- Lung：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+- Heart (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
 
-### **STARmap**
+- Intestine (High continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+  
+- Kidney (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+  
+- Liver (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+  
+- Lung (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
 
-- **`Brain`**：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Skin (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+
+### **Sequential fluorescence in situ hybridization (seqFISH+)** [High Resolution：≦ 0.1 μm]
+
+- **`Brain`** (High continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+  
+- Breast (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+  
+- Heart (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+  
+- Intestine (High continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+
+- Kidney (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+  
+- Liver (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+  
+- Lung (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+
+- Skin (Low continuity)：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+
+### **Spatially-resolved transcript amplicon readout mapping (STARmap)** [High Resolution：0.2～0.3 μm]
+
+- **`Brain`** (High continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
  
-- Breast：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Breast (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Heart：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Heart (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Kidney：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
-  
-- Liver：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
-  
-- Lung：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Intestine (High continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
 
-### **MERFISH**
+- Kidney (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+  
+- Liver (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+  
+- Lung (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
 
-- **`Brain`**：[BASS](./Methods/BASS_Sample.R)<sup>#</sup>, [stLearn](./Methods/stLearn_Sample.py)<sup>#</sup>, [SpatialMGCN](./Methods/SpatialMGCN_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [Banksy](./Methods/Banksy_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)<sup>#</sup>
+- Skin (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
 
-- Breast：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
-  
-- Heart：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
-  
-- Intestine：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
-  
-- Liver：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
-  
-- Lung：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
+### **Multiplexed error-robust fluorescence in situ hybridization (MERFISH)** [High Resolution：≦ 0.1 μm]
 
-### **CosMx**
+- **`Brain`** (High continuity)：[BASS](./Methods/BASS_Sample.R)<sup>#</sup>, [stLearn](./Methods/stLearn_Sample.py)<sup>#</sup>, [SpatialMGCN](./Methods/SpatialMGCN_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [Banksy](./Methods/Banksy_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)<sup>#</sup>
 
-- **`Brain`**：[BASS](./Methods/BASS_Sample.R), [Banksy](./Methods/Banksy_Sample.py), [SEDR](./Methods/SEDR_Sample.py)
+- Breast (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
+  
+- Heart (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
+  
+- Intestine (High continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
 
-- Breast：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+- Kidney (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
   
-- Heart：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+- Liver (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
   
-- Intestine：[BASS](./Methods/BASS_Sample.R), [Banksy](./Methods/Banksy_Sample.py), [SEDR](./Methods/SEDR_Sample.py)
-  
-- Liver：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
-  
-- **`Lung`**：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+- Lung (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
 
-### **Xenium**
+- Skin (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
 
-- **`Brain`**：[GraphST](./Methods/GraphST_Sample.py), [SpaceFlow](./Methods/SpaceFlow_Sample.py), [BASS](./Methods/BASS_Sample.R)
-  
-- **`Breast`**：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
-  
-- Heart：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
-  
-- Intestine：[GraphST](./Methods/GraphST_Sample.py), [SpaceFlow](./Methods/SpaceFlow_Sample.py), [BASS](./Methods/BASS_Sample.R)
-  
-- Liver：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
-  
-- Lung：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
+### **CosMx™ Spatial Molecular Imager (CosMx)** [High Resolution：≦ 0.1 μm]
 
-### **Visium HD**
+- **`Brain`** (High continuity)：[BASS](./Methods/BASS_Sample.R), [Banksy](./Methods/Banksy_Sample.py), [SEDR](./Methods/SEDR_Sample.py)
 
-- **`Brain`**：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R)
+- Breast (Low continuity)：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+  
+- Heart (Low continuity)：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+  
+- Intestine (High continuity)：[BASS](./Methods/BASS_Sample.R), [Banksy](./Methods/Banksy_Sample.py), [SEDR](./Methods/SEDR_Sample.py)
 
-- Breast：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Kidney (Low continuity)：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+
+- Liver (Low continuity)：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
   
-- Heart：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- **`Lung`** (Low continuity)：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+
+- Skin (Low continuity)：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
+
+### **10x Xenium in situ (Xenium)** [High Resolution：≦ 0.1 μm]
+
+- **`Brain`** (High continuity)：[GraphST](./Methods/GraphST_Sample.py), [SpaceFlow](./Methods/SpaceFlow_Sample.py), [BASS](./Methods/BASS_Sample.R)
   
-- **`Intestine`**：[stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py), [SEDR](./Methods/SEDR_Sample.py)
+- **`Breast`** (Low continuity)：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
   
-- Liver：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Heart (Low continuity)：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
   
-- Lung：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Intestine (High continuity)：[GraphST](./Methods/GraphST_Sample.py), [SpaceFlow](./Methods/SpaceFlow_Sample.py), [BASS](./Methods/BASS_Sample.R)
+
+- Kidney (Low continuity)：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
+  
+- Liver (Low continuity)：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
+  
+- Lung (Low continuity)：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
+
+- Skin (Low continuity)：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
+
+### **10x Visium HD (Visium HD)** [High Resolution：2 μm]
+
+- **`Brain`** (High continuity)：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R)
+
+- Breast (Low continuity)：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+  
+- Heart (Low continuity)：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+  
+- **`Intestine`** (High continuity)：[stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py), [SEDR](./Methods/SEDR_Sample.py)
+
+- Kidney (Low continuity)：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+  
+- Liver (Low continuity)：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+  
+- Lung (Low continuity)：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+
+- Skin (Low continuity)：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
 
 ## Optimized Preprocessing Pipelines
@@ -186,38 +218,40 @@ We tested our optimized preprocessing pipeline on the **10x Visium DLPFC** datas
 
 We show default pipelines and **optimized pipelines** (marked in `bold`).
 
-Parameters that differ from the default settings are indicated with <sup>`#`</sup>, whereas parameters marked with <sup>`*`</sup> denote those for which modifications are expected to exert a substantial influence on performance.
+Parameters that differ from the default settings are indicated with <sup>`#`</sup>.
 
 To facilitate use of this optimized pipeline, we also provide versions of the methods using the optimized pipelines in the **[Methods](./Methods)** folder.
 
 | Method        | Normalization | Log Transformation | Genes Selection | Standardization | Dimension Reduction |
 |---------------|---------------|-----------------|----------------|----------------|------------------|
-| **[BASS](./Methods/BASS_Sample_Optimized.R)**                           | Yes            | Yes             | 3000 SVGs            | No<sup>*</sup> | 20 PCs             |
-| [Banksy](./Methods/Banksy_Sample.py)                                    | Yes<sup>*</sup>| No<sup>*</sup>  | 2000 HVGs<sup>*</sup>| No             | 20 PCs<sup>*</sup> |
+| [BASS (default)](./Methods/BASS_Sample.R)                               | Yes            | Yes             | 3000 SVGs            | No             | 20 PCs             |
+| **[BASS (optimized)](./Methods/BASS_Sample_Optimized.R)**               | Yes            | Yes             | 3000 SVGs            | No             | 20 PCs             |
+| [Banksy (default)](./Methods/Banksy_Sample.py)                          | Yes            | No              | 2000 HVGs            | No             | 20 PCs             |
 | **[Banksy (optimized)](./Methods/Banksy_Sample_Optimized.py)**          | Yes            | Yes<sup>#</sup> | 3000 SVGs<sup>#</sup>| Yes<sup>#</sup>| 15 PCs             |
-| [BayesSpace](./Methods/BayesSpace_Sample.R)                             | Yes            | Yes             | 2000 HVGs            | No             | 15 PCs             |
-| **[BayesSpace(optimized)](./Methods/BayesSpace_Sample_Optimized.R)**    | Yes            | Yes             | 5000 HVGs<sup>#</sup>| No             | 20 PCs<sup>#</sup> |
-| [CCST](./Methods/CCST_Sample.py)                                        | Yes<sup>*</sup>| No<sup>*</sup>  | All Genes<sup>*</sup>| Yes<sup>*</sup>| 200 PCs            |
-| **[CCST(optimized)](./Methods/CCST_Sample_Optimized.py)**               | Yes            | No              | 2000 HVGs<sup>#</sup>| Yes            | 50 PCs<sup>#</sup> |
-| [CellCharter](./Methods/CellCharter_Sample.py)                          | Yes            | Yes             | 5000 HVGs<sup>*</sup>| No             | No                 |
-| **[CellCharter(optimized)](./Methods/CellCharter_Sample_Optimized.py)** | Yes            | No<sup>#</sup>  | 2000 HVGs<sup>#</sup>| No             | No                 |
-| [DeepST](./Methods/DeepST_Sample.py)                                    | Yes            | Yes<sup>*</sup> | All Genes<sup>*</sup>| Yes<sup>*</sup>| 200 PCs<sup>*</sup>|
-| **[DeepST(optimized)](./Methods/DeepST_Sample_Optimized.py)**           | Yes            | Yes             | 3000 SVGs<sup>#</sup>| Yes            | 50 PCs<sup>#</sup> |
-| [GraphST](./Methods/GraphST_Sample.py)                                  | Yes<sup>*</sup>| Yes             | 3000 HVGs            | Yes            | No                 |
-| **[GraphST(optimized)](./Methods/GraphST_Sample_Optimized.py)**         | Yes            | Yes             | 2000 HVGs<sup>#</sup>| No<sup>#</sup> | No                 |
-| [PRECAST](./Methods/PRECAST_Sample.R)                                   | Yes            | No              | 2000 HVGs            | No             | 15 PCs             |
-| **[PRECAST(optimized)](./Methods/PRECAST_Sample_Optimized.R)**          | Yes            | No              | 5000 HVGs<sup>#</sup>| No             | 20 PCs<sup>#</sup> |
-| [SEDR](./Methods/SEDR_Sample.py)                                        | Yes            | No<sup>*</sup>  | 2000 HVGs            | Yes<sup>*</sup>| 200 PCs            |
-| **[SEDR(optimized)](./Methods/SEDR_Sample_Optimized.py)**               | Yes            | No              | 3000 SVGs<sup>#</sup>| Yes            | 50 PCs<sup>#</sup> |
-| **[STAGATE](./Methods/STAGATE_Sample_Optimized.py)**                    | Yes<sup>*</sup>| Yes<sup>*</sup> | 3000 HVGs<sup>*</sup>| No<sup>*</sup> | No                 |
-| [SpaGCN](./Methods/SpaGCN_Sample.py)                                    | Yes<sup>*</sup>| Yes             | All Genes            | No             | No                 |
-| **[SpaGCN(optimized)](./Methods/SpaGCN_Sample_Optimized.py)**           | Yes            | Yes             | All Genes            | Yes<sup>#</sup>| No                 |
-| [SpaceFlow](./Methods/SpaceFlow_Sample.py)                              | Yes            | Yes             | 3000 HVGs            | No             | No                 |
-| **[SpaceFlow(optimized)](./Methods/SpaceFlow_Sample_Optimized.py)**     | Yes            | No<sup>#</sup>  | 3000 SVGs<sup>#</sup>| Yes<sup>#</sup>| No                 |
-| [SpatialMGCN](./Methods/SpatialMGCN_Sample.py)                          | Yes            | No<sup>*</sup>  | 3000 HVGs            | Yes            | No                 |
-| **[SpatialMGCN(optimized)](./Methods/SpatialMGCN_Sample_Optimized.py)** | Yes            | No              | 3000 SVGs<sup>#</sup>| No<sup>#</sup> | No                 |
-| [stLearn](./Methods/stLearn_Sample.py)                                  | Yes<sup>*</sup>| Yes             | All Genes<sup>*</sup>| No<sup>*</sup> | 50 PCs             |
-| **[stLearn(optimized)](./Methods/stLearn_Sample_Optimized.py)**         | Yes            | No<sup>#</sup>  | 3000 SVGs<sup>#</sup>| No             | 20 PCs<sup>#</sup> |
+| [BayesSpace (default)](./Methods/BayesSpace_Sample.R)                   | Yes            | Yes             | 2000 HVGs            | No             | 15 PCs             |
+| **[BayesSpace (optimized)](./Methods/BayesSpace_Sample_Optimized.R)**   | Yes            | Yes             | 5000 HVGs<sup>#</sup>| No             | 20 PCs<sup>#</sup> |
+| [CCST (default)](./Methods/CCST_Sample.py)                              | Yes            | No              | All Genes            | Yes            | 200 PCs            |
+| **[CCST (optimized)](./Methods/CCST_Sample_Optimized.py)**              | Yes            | No              | 2000 HVGs<sup>#</sup>| Yes            | 50 PCs<sup>#</sup> |
+| [CellCharter (default)](./Methods/CellCharter_Sample.py)                | Yes            | Yes             | 5000 HVGs            | No             | No                 |
+| **[CellCharter (optimized)](./Methods/CellCharter_Sample_Optimized.py)**| Yes            | No<sup>#</sup>  | 2000 HVGs<sup>#</sup>| No             | No                 |
+| [DeepST (default)](./Methods/DeepST_Sample.py)                          | Yes            | Yes             | All Genes            | Yes            | 200 PCs            |
+| **[DeepST (optimized)](./Methods/DeepST_Sample_Optimized.py)**          | Yes            | Yes             | 3000 SVGs<sup>#</sup>| Yes            | 50 PCs<sup>#</sup> |
+| [GraphST (default)](./Methods/GraphST_Sample.py)                        | Yes            | Yes             | 3000 HVGs            | Yes            | No                 |
+| **[GraphST (optimized)](./Methods/GraphST_Sample_Optimized.py)**        | Yes            | Yes             | 2000 HVGs<sup>#</sup>| No<sup>#</sup> | No                 |
+| [PRECAST (default)](./Methods/PRECAST_Sample.R)                         | Yes            | No              | 2000 HVGs            | No             | 15 PCs             |
+| **[PRECAST (optimized)](./Methods/PRECAST_Sample_Optimized.R)**         | Yes            | No              | 5000 HVGs<sup>#</sup>| No             | 20 PCs<sup>#</sup> |
+| [SEDR](./Methods/SEDR_Sample.py)                                        | Yes            | No              | 2000 HVGs            | Yes            | 200 PCs            |
+| **[SEDR (optimized)](./Methods/SEDR_Sample_Optimized.py)**              | Yes            | No              | 3000 SVGs<sup>#</sup>| Yes            | 50 PCs<sup>#</sup> |
+| [STAGATE (default)](./Methods/STAGATE_Sample.py)                        | Yes            | Yes             | 3000 HVGs            | No             | No                 |
+| **[STAGATE (optimized)](./Methods/STAGATE_Sample_Optimized.py)**        | Yes            | Yes             | 3000 HVGs            | No             | No                 |
+| [SpaGCN (default)](./Methods/SpaGCN_Sample.py)                          | Yes            | Yes             | All Genes            | No             | No                 |
+| **[SpaGCN (optimized)](./Methods/SpaGCN_Sample_Optimized.py)**          | Yes            | Yes             | All Genes            | Yes<sup>#</sup>| No                 |
+| [SpaceFlow (default)](./Methods/SpaceFlow_Sample.py)                    | Yes            | Yes             | 3000 HVGs            | No             | No                 |
+| **[SpaceFlow (optimized)](./Methods/SpaceFlow_Sample_Optimized.py)**    | Yes            | No<sup>#</sup>  | 3000 SVGs<sup>#</sup>| Yes<sup>#</sup>| No                 |
+| [SpatialMGCN (default)](./Methods/SpatialMGCN_Sample.py)                | Yes            | No              | 3000 HVGs            | Yes            | No                 |
+| **[SpatialMGCN (optimized)](./Methods/SpatialMGCN_Sample_Optimized.py)**| Yes            | No              | 3000 SVGs<sup>#</sup>| No<sup>#</sup> | No                 |
+| [stLearn (default)](./Methods/stLearn_Sample.py)                        | Yes            | Yes             | All Genes            | No             | 50 PCs             |
+| **[stLearn (optimized)](./Methods/stLearn_Sample_Optimized.py)**        | Yes            | No<sup>#</sup>  | 3000 SVGs<sup>#</sup>| No             | 20 PCs<sup>#</sup> |
 
 ## Citation
 If this benchamrking is useful for your research, please cite the following paper:
