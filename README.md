@@ -42,7 +42,7 @@ For each technology and organ, we recommend methods that showed the most consist
   
 - **Intestine**：[CCST](./Methods/CCST_Sample.py), [DeepST](./Methods/DeepST_Sample.py), [CellCharter](./Methods/CellCharter_Sample.py)
 
-- **Kidney**：[PRECAST](./Methods/PRECAST_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R)|, [SpaGCN](./Methods/SpaGCN_Sample.py)
+- **Kidney**：[PRECAST](./Methods/PRECAST_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py)
   
 - **Liver**：[STAGATE](./Methods/STAGATE_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
   
@@ -52,133 +52,133 @@ For each technology and organ, we recommend methods that showed the most consist
 
 ### **ST**
 
-- **Brain**：BASS, BayesSpace, PRECAST
+- **Brain**：[BASS](./Methods/BASS_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R), [PRECAST](./Methods/PRECAST_Sample.R)
 
-- Breast：PRECAST, stLearn, STAGATE
+- Breast：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
   
-- Heart：PRECAST, stLearn, STAGATE
+- Heart：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
   
-- Intestine：BASS, BayesSpace, PRECAST
+- Intestine：[BASS](./Methods/BASS_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R), [PRECAST](./Methods/PRECAST_Sample.R)
 
-- Kidney：PRECAST, stLearn, STAGATE
+- Kidney：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
   
-- Liver：PRECAST, stLearn, STAGATE
+- Liver：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
   
-- Lung：PRECAST, stLearn, STAGATE
+- Lung：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
 
-- Skin：PRECAST, stLearn, STAGATE
+- Skin：[PRECAST](./Methods/PRECAST_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [STAGATE](./Methods/STAGATE_Sample.py)
 
 ### **Slide-seq**
 
-- **Brain**：STAGATE, SpaGCN, BASS
+- **Brain**：[STAGATE](./Methods/STAGATE_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [BASS](./Methods/BASS_Sample.R)
 
-- Breast：BASS, stLearn, Banksy
+- Breast：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Heart：BASS, stLearn, Banksy
+- Heart：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- **Kidney**：BASS, stLearn, Banksy
+- **Kidney**：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Liver：BASS, stLearn, Banksy
+- Liver：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- **Lung**：BASS, stLearn, Banksy
+- **Lung**：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
 
 ### **Stereo-seq**
 
-- **Brain**：BASS, SpaGCN, stLearn
+- **`Brain`**：[BASS](./Methods/BASS_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py), [stLearn](./Methods/stLearn_Sample.py)
 
-- Breast：BASS, stLearn, Banksy
+- Breast：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Heart：BASS, stLearn, Banksy
+- Heart：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Kidney：BASS, stLearn, Banksy
+- Kidney：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Liver：BASS, stLearn, Banksy
+- Liver：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Lung：BASS, stLearn, Banksy
+- Lung：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
 
 ### **seqFISH+**
 
-- **Brain**：PRECAST, BASS, stLearn
+- **Brain**：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
   
-- Breast：PRECAST, BASS, stLearn
+- Breast：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
   
-- Heart：PRECAST, BASS, stLearn
+- Heart：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
   
-- Kidney：PRECAST, BASS, stLearn
+- Kidney：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
   
-- Liver：PRECAST, BASS, stLearn
+- Liver：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
   
-- Lung：PRECAST, BASS, stLearn
+- Lung：[PRECAST](./Methods/PRECAST_Sample.R), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
 
 ### **STARmap**
 
-- **Brain**：BASS, stLearn, Banksy
+- **Brain**：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
  
-- Breast：BASS, stLearn, Banksy
+- Breast：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Heart：BASS, stLearn, Banksy
+- Heart：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Kidney：BASS, stLearn, Banksy
+- Kidney：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Liver：BASS, stLearn, Banksy
+- Liver：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Lung：BASS, stLearn, Banksy
+- Lung：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
 
 ### **MERFISH**
 
-- **Brain**：BASS<sup>#</sup>, stLearn<sup>#</sup>, SpatialMGCN, PRECAST, Banksy, SpaGCN<sup>#</sup>
+- **Brain**：[BASS](./Methods/BASS_Sample.R)<sup>#</sup>, [stLearn](./Methods/stLearn_Sample.py)<sup>#</sup>, [SpatialMGCN](./Methods/SpatialMGCN_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [Banksy](./Methods/Banksy_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)<sup>#</sup>
 
-- Breast：BASS, stLearn, SpaGCN
+- Breast：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
   
-- Heart：BASS, stLearn, SpaGCN
+- Heart：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
   
-- Intestine：BASS, stLearn, SpaGCN
+- Intestine：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
   
-- Liver：BASS, stLearn, SpaGCN
+- Liver：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
   
-- Lung：BASS, stLearn, SpaGCN
+- Lung：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
 
 ### **CosMx**
 
-- **Brain**：BASS, Banksy, SEDR
+- **Brain**：[BASS](./Methods/BASS_Sample.R), [Banksy](./Methods/Banksy_Sample.py), [SEDR](./Methods/SEDR_Sample.py)
 
-- Breast：Banksy, BASS, stLearn
+- Breast：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
   
-- Heart：Banksy, BASS, stLearn
+- Heart：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
   
-- Intestine：BASS, Banksy, SEDR
+- Intestine：[BASS](./Methods/BASS_Sample.R), [Banksy](./Methods/Banksy_Sample.py), [SEDR](./Methods/SEDR_Sample.py)
   
-- Liver：Banksy, BASS, stLearn
+- Liver：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
   
-- **Lung**：Banksy, BASS, stLearn
+- **Lung**：[Banksy](./Methods/Banksy_Sample.py), [BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py)
 
 ### **Xenium**
 
-- **Brain**：GraphST, SpaceFlow, BASS
+- **Brain**：[GraphST](./Methods/GraphST_Sample.py), [SpaceFlow](./Methods/SpaceFlow_Sample.py), [BASS](./Methods/BASS_Sample.R)
   
-- **Breast**：Banksy, stLearn, BASS
+- **Breast**：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
   
-- Heart：Banksy, stLearn, BASS
+- Heart：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
   
-- Intestine：GraphST, SpaceFlow, BASS
+- Intestine：[GraphST](./Methods/GraphST_Sample.py), [SpaceFlow](./Methods/SpaceFlow_Sample.py), [BASS](./Methods/BASS_Sample.R)
   
-- Liver：Banksy, stLearn, BASS
+- Liver：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
   
-- Lung：Banksy, stLearn, BASS
+- Lung：[Banksy](./Methods/Banksy_Sample.py), [stLearn](./Methods/stLearn_Sample.py), [BASS](./Methods/BASS_Sample.R)
 
 ### **Visium HD**
 
-- **Brain**：stLearn, SpaGCN, PRECAST
+- **Brain**：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R)
 
-- Breast：stLearn, SpaGCN, Banksy
+- Breast：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Heart：stLearn, SpaGCN, Banksy
+- Heart：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- **Intestine**：stLearn, Banksy, SEDR
+- **Intestine**：[stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py), [SEDR](./Methods/SEDR_Sample.py)
   
-- Liver：stLearn, SpaGCN, Banksy
+- Liver：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
-- Lung：stLearn, SpaGCN, Banksy
+- Lung：[stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
 
 ## Optimized Preprocessing Pipelines
@@ -219,4 +219,8 @@ To facilitate use of this optimized pipeline, we also provide versions of the me
 | [stLearn](./Methods/stLearn_Sample.py)                                  | Yes<sup>*</sup>| Yes             | All Genes<sup>*</sup>| No<sup>*</sup> | 50 PCs             |
 | **[stLearn(optimized)](./Methods/stLearn_Sample_Optimized.py)**         | Yes            | No<sup>#</sup>  | 3000 SVGs<sup>#</sup>| No             | 20 PCs<sup>#</sup> |
 
-## About
+## Citation
+If this benchamrking is useful for your research, please cite the following paper:
+```
+Renjie Chen, Yue Yao, Jingyang Qian, Xin Peng, Xin Shao, Xiaohui Fan. 2025. A comprehensive benchmarking for spatially resolved transcriptomics clustering methods across variable technologies, organs, and replicates. iMeta 4: e70084. https://doi.org/10.1002/imt2.70084.
+```
