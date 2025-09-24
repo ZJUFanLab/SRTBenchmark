@@ -28,13 +28,13 @@ In detail, we provide recommendations of the most accurate methods tailored to d
 
 1.For application scenarios where real-world datasets are available, the recommended methods are indicated in `bold`.
 
-2.For application scenarios that include biological replicates, the recommended methods are marked with <sup>`#`</sup>.
+2.For application scenarios that include biological replicates, the recommended methods are marked with <sup>`*`</sup>.
 
 3.When real datasets were not included in our analyses, recommendations are inferred from the summarized benchmarking results.
 
 ### **10× Visium** [Low Resolution：55 μm]
  
-- **`Brain`** (High continuity)：[STAGATE](./Methods/STAGATE_Sample.py), [GraphST](./Methods/GraphST_Sample.py), [SEDR](./Methods/SEDR_Sample.py)<sup>#</sup>, [Banksy](./Methods/Banksy_Sample.py)<sup>#</sup>, [DeepST](./Methods/DeepST_Sample.py)<sup>#</sup>
+- **`Brain`** (High continuity)：[STAGATE](./Methods/STAGATE_Sample.py), [GraphST](./Methods/GraphST_Sample.py), [SEDR](./Methods/SEDR_Sample.py)<sup>*</sup>, [Banksy](./Methods/Banksy_Sample.py)<sup>*</sup>, [DeepST](./Methods/DeepST_Sample.py)<sup>*</sup>
 
 - **`Breast`** (Low continuity)：[stLearn](./Methods/stLearn_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [BayesSpace](./Methods/BayesSpace_Sample.R)
   
@@ -76,7 +76,7 @@ In detail, we provide recommendations of the most accurate methods tailored to d
   
 - Heart (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
 
-- Intestine (High continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Intestine (High continuity)：[STAGATE](./Methods/STAGATE_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py), [BASS](./Methods/BASS_Sample.R)
     
 - **`Kidney`** (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
   
@@ -90,19 +90,19 @@ In detail, we provide recommendations of the most accurate methods tailored to d
 
 - **`Brain`** (High continuity)：[BASS](./Methods/BASS_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py), [stLearn](./Methods/stLearn_Sample.py)
 
-- Breast (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Breast (Low continuity)：[BASS](./Methods/BASS_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py), [stLearn](./Methods/stLearn_Sample.py)
   
-- Heart (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Heart (Low continuity)：[BASS](./Methods/BASS_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py), [stLearn](./Methods/stLearn_Sample.py)
 
-- Intestine (High continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Intestine (High continuity)：[BASS](./Methods/BASS_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py), [stLearn](./Methods/stLearn_Sample.py)
   
-- Kidney (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Kidney (Low continuity)：[BASS](./Methods/BASS_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py), [stLearn](./Methods/stLearn_Sample.py)
   
-- Liver (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Liver (Low continuity)：[BASS](./Methods/BASS_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py), [stLearn](./Methods/stLearn_Sample.py)
   
-- Lung (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Lung (Low continuity)：[BASS](./Methods/BASS_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py), [stLearn](./Methods/stLearn_Sample.py)
 
-- Skin (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [Banksy](./Methods/Banksy_Sample.py)
+- Skin (Low continuity)：[BASS](./Methods/BASS_Sample.R), [SpaGCN](./Methods/SpaGCN_Sample.py), [stLearn](./Methods/stLearn_Sample.py)
 
 ### **Sequential fluorescence in situ hybridization (seqFISH+)** [High Resolution：≦ 0.1 μm]
 
@@ -142,7 +142,7 @@ In detail, we provide recommendations of the most accurate methods tailored to d
 
 ### **Multiplexed error-robust fluorescence in situ hybridization (MERFISH)** [High Resolution：≦ 0.1 μm]
 
-- **`Brain`** (High continuity)：[BASS](./Methods/BASS_Sample.R)<sup>#</sup>, [stLearn](./Methods/stLearn_Sample.py)<sup>#</sup>, [SpatialMGCN](./Methods/SpatialMGCN_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [Banksy](./Methods/Banksy_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)<sup>#</sup>
+- **`Brain`** (High continuity)：[BASS](./Methods/BASS_Sample.R)<sup>*</sup>, [stLearn](./Methods/stLearn_Sample.py)<sup>*</sup>, [SpatialMGCN](./Methods/SpatialMGCN_Sample.py), [PRECAST](./Methods/PRECAST_Sample.R), [Banksy](./Methods/Banksy_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)<sup>*</sup>
 
 - Breast (Low continuity)：[BASS](./Methods/BASS_Sample.R), [stLearn](./Methods/stLearn_Sample.py), [SpaGCN](./Methods/SpaGCN_Sample.py)
   
@@ -218,7 +218,7 @@ We tested our optimized preprocessing pipeline on the **10x Visium DLPFC** datas
 
 We show default pipelines and **optimized pipelines** (marked in `bold`).
 
-Parameters that differ from the default settings are indicated with <sup>`#`</sup>.
+Parameters that differ from the default settings are indicated with <sup>`*`</sup>.
 
 To facilitate use of this optimized pipeline, we also provide versions of the methods using the optimized pipelines in the **[Methods](./Methods)** folder.
 
@@ -227,31 +227,31 @@ To facilitate use of this optimized pipeline, we also provide versions of the me
 | [BASS (default)](./Methods/BASS_Sample.R)                               | Yes            | Yes             | 3000 SVGs            | No             | 20 PCs             |
 | **[BASS (optimized)](./Methods/BASS_Sample_Optimized.R)**               | Yes            | Yes             | 3000 SVGs            | No             | 20 PCs             |
 | [Banksy (default)](./Methods/Banksy_Sample.py)                          | Yes            | No              | 2000 HVGs            | No             | 20 PCs             |
-| **[Banksy (optimized)](./Methods/Banksy_Sample_Optimized.py)**          | Yes            | Yes<sup>#</sup> | 3000 SVGs<sup>#</sup>| Yes<sup>#</sup>| 15 PCs             |
+| **[Banksy (optimized)](./Methods/Banksy_Sample_Optimized.py)**          | Yes            | Yes<sup>*</sup> | 3000 SVGs<sup>*</sup>| Yes<sup>*</sup>| 15 PCs             |
 | [BayesSpace (default)](./Methods/BayesSpace_Sample.R)                   | Yes            | Yes             | 2000 HVGs            | No             | 15 PCs             |
-| **[BayesSpace (optimized)](./Methods/BayesSpace_Sample_Optimized.R)**   | Yes            | Yes             | 5000 HVGs<sup>#</sup>| No             | 20 PCs<sup>#</sup> |
+| **[BayesSpace (optimized)](./Methods/BayesSpace_Sample_Optimized.R)**   | Yes            | Yes             | 5000 HVGs<sup>*</sup>| No             | 20 PCs<sup>*</sup> |
 | [CCST (default)](./Methods/CCST_Sample.py)                              | Yes            | No              | All Genes            | Yes            | 200 PCs            |
-| **[CCST (optimized)](./Methods/CCST_Sample_Optimized.py)**              | Yes            | No              | 2000 HVGs<sup>#</sup>| Yes            | 50 PCs<sup>#</sup> |
+| **[CCST (optimized)](./Methods/CCST_Sample_Optimized.py)**              | Yes            | No              | 2000 HVGs<sup>*</sup>| Yes            | 50 PCs<sup>*</sup> |
 | [CellCharter (default)](./Methods/CellCharter_Sample.py)                | Yes            | Yes             | 5000 HVGs            | No             | No                 |
-| **[CellCharter (optimized)](./Methods/CellCharter_Sample_Optimized.py)**| Yes            | No<sup>#</sup>  | 2000 HVGs<sup>#</sup>| No             | No                 |
+| **[CellCharter (optimized)](./Methods/CellCharter_Sample_Optimized.py)**| Yes            | No<sup>*</sup>  | 2000 HVGs<sup>*</sup>| No             | No                 |
 | [DeepST (default)](./Methods/DeepST_Sample.py)                          | Yes            | Yes             | All Genes            | Yes            | 200 PCs            |
-| **[DeepST (optimized)](./Methods/DeepST_Sample_Optimized.py)**          | Yes            | Yes             | 3000 SVGs<sup>#</sup>| Yes            | 50 PCs<sup>#</sup> |
+| **[DeepST (optimized)](./Methods/DeepST_Sample_Optimized.py)**          | Yes            | Yes             | 3000 SVGs<sup>*</sup>| Yes            | 50 PCs<sup>*</sup> |
 | [GraphST (default)](./Methods/GraphST_Sample.py)                        | Yes            | Yes             | 3000 HVGs            | Yes            | No                 |
-| **[GraphST (optimized)](./Methods/GraphST_Sample_Optimized.py)**        | Yes            | Yes             | 2000 HVGs<sup>#</sup>| No<sup>#</sup> | No                 |
+| **[GraphST (optimized)](./Methods/GraphST_Sample_Optimized.py)**        | Yes            | Yes             | 2000 HVGs<sup>*</sup>| No<sup>*</sup> | No                 |
 | [PRECAST (default)](./Methods/PRECAST_Sample.R)                         | Yes            | No              | 2000 HVGs            | No             | 15 PCs             |
-| **[PRECAST (optimized)](./Methods/PRECAST_Sample_Optimized.R)**         | Yes            | No              | 5000 HVGs<sup>#</sup>| No             | 20 PCs<sup>#</sup> |
+| **[PRECAST (optimized)](./Methods/PRECAST_Sample_Optimized.R)**         | Yes            | No              | 5000 HVGs<sup>*</sup>| No             | 20 PCs<sup>*</sup> |
 | [SEDR](./Methods/SEDR_Sample.py)                                        | Yes            | No              | 2000 HVGs            | Yes            | 200 PCs            |
-| **[SEDR (optimized)](./Methods/SEDR_Sample_Optimized.py)**              | Yes            | No              | 3000 SVGs<sup>#</sup>| Yes            | 50 PCs<sup>#</sup> |
+| **[SEDR (optimized)](./Methods/SEDR_Sample_Optimized.py)**              | Yes            | No              | 3000 SVGs<sup>*</sup>| Yes            | 50 PCs<sup>*</sup> |
 | [STAGATE (default)](./Methods/STAGATE_Sample.py)                        | Yes            | Yes             | 3000 HVGs            | No             | No                 |
 | **[STAGATE (optimized)](./Methods/STAGATE_Sample_Optimized.py)**        | Yes            | Yes             | 3000 HVGs            | No             | No                 |
 | [SpaGCN (default)](./Methods/SpaGCN_Sample.py)                          | Yes            | Yes             | All Genes            | No             | No                 |
-| **[SpaGCN (optimized)](./Methods/SpaGCN_Sample_Optimized.py)**          | Yes            | Yes             | All Genes            | Yes<sup>#</sup>| No                 |
+| **[SpaGCN (optimized)](./Methods/SpaGCN_Sample_Optimized.py)**          | Yes            | Yes             | All Genes            | Yes<sup>*</sup>| No                 |
 | [SpaceFlow (default)](./Methods/SpaceFlow_Sample.py)                    | Yes            | Yes             | 3000 HVGs            | No             | No                 |
-| **[SpaceFlow (optimized)](./Methods/SpaceFlow_Sample_Optimized.py)**    | Yes            | No<sup>#</sup>  | 3000 SVGs<sup>#</sup>| Yes<sup>#</sup>| No                 |
+| **[SpaceFlow (optimized)](./Methods/SpaceFlow_Sample_Optimized.py)**    | Yes            | No<sup>*</sup>  | 3000 SVGs<sup>*</sup>| Yes<sup>*</sup>| No                 |
 | [SpatialMGCN (default)](./Methods/SpatialMGCN_Sample.py)                | Yes            | No              | 3000 HVGs            | Yes            | No                 |
-| **[SpatialMGCN (optimized)](./Methods/SpatialMGCN_Sample_Optimized.py)**| Yes            | No              | 3000 SVGs<sup>#</sup>| No<sup>#</sup> | No                 |
+| **[SpatialMGCN (optimized)](./Methods/SpatialMGCN_Sample_Optimized.py)**| Yes            | No              | 3000 SVGs<sup>*</sup>| No<sup>*</sup> | No                 |
 | [stLearn (default)](./Methods/stLearn_Sample.py)                        | Yes            | Yes             | All Genes            | No             | 50 PCs             |
-| **[stLearn (optimized)](./Methods/stLearn_Sample_Optimized.py)**        | Yes            | No<sup>#</sup>  | 3000 SVGs<sup>#</sup>| No             | 20 PCs<sup>#</sup> |
+| **[stLearn (optimized)](./Methods/stLearn_Sample_Optimized.py)**        | Yes            | No<sup>*</sup>  | 3000 SVGs<sup>*</sup>| No             | 20 PCs<sup>*</sup> |
 
 ## Citation
 If this benchamrking is useful for your research, please cite the following paper:
